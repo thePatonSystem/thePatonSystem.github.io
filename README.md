@@ -30,6 +30,28 @@ Paton Unified Equations — Complete Package
 Zenodo DOI Archive  
 https://doi.org/10.5281/zenodo.18364922
 
+Zenodo Record Page  
+https://zenodo.org/records/18364922
+
+---
+
+## Academic Indexing
+
+PhilPapers Author Profile  
+PASTE-YOUR-PROFILE-LINK-HERE
+
+---
+
+## Enter
+- [The Spine](spine.md)
+- [Fields](fields/index.md)
+
+---
+
+© Andrew John Paton 2025–∞  
+Licensed CC-BY 4.0Zenodo DOI Archive  
+https://doi.org/10.5281/zenodo.18364922
+
 ---
 
 ## Enter
