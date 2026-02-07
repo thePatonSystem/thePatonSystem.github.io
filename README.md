@@ -24,10 +24,29 @@ This site is organised as a **fixed spine with branched field interpretations**.
 
 ---
 
-## Primary Publication (Zenodo)
+## Primary Publication
 
 Paton Unified Equations — Complete Package  
-DOI (preferred): https://doi.org/10.5281/zenodo.18364922  
+https://doi.org/10.5281/zenodo.18364922
+
+---
+
+## Canon Index
+
+Official publication lineage and version ledger:
+
+[Master Canon Index — v1.0](master_index.md)
+
+---
+
+## Enter
+- [The Spine](spine.md)
+- [Fields](fields/index.md)
+
+---
+
+© Andrew John Paton 2025–∞  
+Licensed CC-BY 4.0DOI (preferred): https://doi.org/10.5281/zenodo.18364922  
 Record page: https://zenodo.org/records/18364922
 
 ---
