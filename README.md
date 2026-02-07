@@ -24,33 +24,31 @@ This site is organised as a **fixed spine with branched field interpretations**.
 
 ---
 
-## Primary Publication
+## Primary Publication (Zenodo)
 
 Paton Unified Equations — Complete Package  
-Zenodo DOI Archive  
-https://doi.org/10.5281/zenodo.18364922
-
-Zenodo Record Page  
-https://zenodo.org/records/18364922
+DOI (preferred): https://doi.org/10.5281/zenodo.18364922  
+Record page: https://zenodo.org/records/18364922
 
 ---
 
 ## Academic Indexing
 
-PhilPapers Author Profile  
-PASTE-YOUR-PROFILE-LINK-HERE
+PhilPeople profile: https://philpeople.org/profiles/andrew-john-paton  
+PhilArchive author page (all works): https://philarchive.org/s/Andrew%20Paton  
+PhilPapers record (Paton System paper): https://philpapers.org/rec/PATTPS-2
 
 ---
 
-## Enter
-- [The Spine](spine.md)
-- [Fields](fields/index.md)
+## Writing / Outreach
+
+Medium: https://medium.com/@andrewjp2008
 
 ---
 
-© Andrew John Paton 2025–∞  
-Licensed CC-BY 4.0Zenodo DOI Archive  
-https://doi.org/10.5281/zenodo.18364922
+## Contact
+
+Email: thepatonsystem@gmail.com
 
 ---
 
