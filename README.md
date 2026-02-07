@@ -24,6 +24,14 @@ This site is organised as a **fixed spine with branched field interpretations**.
 
 ---
 
+## Primary Publication
+
+Paton Unified Equations — Complete Package  
+Zenodo DOI Archive  
+https://doi.org/10.5281/zenodo.18364922
+
+---
+
 ## Enter
 - [The Spine](spine.md)
 - [Fields](fields/index.md)
