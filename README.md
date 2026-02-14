@@ -4,9 +4,15 @@
 # The Paton System
 **Admissibility and viability before dynamics.**
 
-The Paton System is a pre-theoretical framework for determining  
-whether a description, model, or explanation is *allowed to proceed*  
-before equations, optimisation, or prediction are applied.
+The Paton System is a pre-theoretical framework for determining whether a description, model, or explanation is *allowed to proceed* before equations, optimisation, or prediction are applied.
+
+Formal classification framework for admissibility across domains.  
+The framework is archived with DOI registration and version control via Zenodo.
+
+---
+
+## System Overview
+![Paton System Diagram](figures/system_overview.png)
 
 ---
 
