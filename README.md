@@ -25,7 +25,8 @@ It does **not** replace domain-specific theory or physical law; it determines wh
 ---
 
 ## Mechanism Illustration
-<img width="1200" src="PASTE_FORMULA_IMAGE_URL_HERE" />
+![Uploading file_0000000033ec71fa80b938213579ae79.png…]()
+
 
 *Figure — Constraint-mediated recursive emergence illustrated for the Paton Formula.*
 
