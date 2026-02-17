@@ -25,7 +25,8 @@ It does **not** replace domain-specific theory or physical law; it determines wh
 ---
 
 ## Mechanism Illustration
-![Uploading file_00000000e30871fa881020aeb1c80f08.png…]()
+<img width="1536" height="1024" alt="file_00000000e30871fa881020aeb1c80f08" src="https://github.com/user-attachments/assets/27eccb10-ecc2-4ee4-80e9-0cd62787c9bb" />
+
 
 
 
