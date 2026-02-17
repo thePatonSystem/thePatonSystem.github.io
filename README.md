@@ -12,7 +12,7 @@ The framework is archived with DOI registration and version control via Zenodo.
 ---
 
 ## System Overview
-![Paton System Diagram]<img width="1024" height="1536" alt="file_000000000c6871fa9cac613fa17f9ade (1)" src="https://github.com/user-attachments/assets/b3b3a31a-0273-44a8-84c0-e19ada990742" />
+<img width="1024" height="1536" alt="file_000000000c6871fa9cac613fa17f9ade (1)" src="https://github.com/user-attachments/assets/b3b3a31a-0273-44a8-84c0-e19ada990742" />
 
 ---
 
