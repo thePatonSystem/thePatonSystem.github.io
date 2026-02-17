@@ -18,7 +18,7 @@ It does **not** replace domain-specific theory or physical law; it determines wh
 ---
 
 ## System Overview
-![Paton System Tier Architecture]<img width="1024" height="1536" alt="file_000000000c6871fa9cac613fa17f9ade (1)" src="https://github.com/user-attachments/assets/8260615b-6fa1-48bf-99d4-d2905e096209" />
+<img width="1024" height="1536" alt="file_000000000c6871fa9cac613fa17f9ade (1)" src="https://github.com/user-attachments/assets/8260615b-6fa1-48bf-99d4-d2905e096209" />
 
 
 *Figure — Tiered structural architecture of the Paton System.*
