@@ -4,6 +4,8 @@
 # The Paton System
 **Admissibility and viability before dynamics**
 
+*A structural admissibility framework for determining when models are permitted to operate.*
+
 The Paton System is a pre-theoretical framework for determining whether a description, model, or explanation is structurally permitted to proceed before equations, optimisation, or prediction are applied.
 
 It provides a formal classification architecture for admissibility across domains.  
@@ -11,8 +13,13 @@ All materials are archived with DOI registration and version control via Zenodo.
 
 ---
 
+**Discipline classification:**  
+Philosophy of Science • Systems Theory • Structural Modelling
+
+---
+
 ## Scope
-The Paton System evaluates admissibility conditions only.  
+The Paton System evaluates **structural admissibility conditions only.**  
 It does **not** replace domain-specific theory or physical law; it determines whether such models are structurally permitted to operate.
 
 ---
@@ -26,9 +33,6 @@ It does **not** replace domain-specific theory or physical law; it determines wh
 
 ## Mechanism Illustration
 <img width="1536" height="1024" alt="file_00000000e30871fa881020aeb1c80f08" src="https://github.com/user-attachments/assets/27eccb10-ecc2-4ee4-80e9-0cd62787c9bb" />
-
-
-
 
 *Figure — Constraint-mediated recursive emergence illustrated for the Paton Formula.*
 
