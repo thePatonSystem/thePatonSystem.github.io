@@ -1,4 +1,3 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18364922.svg)](https://doi.org/10.5281/zenodo.18364922)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 # The Paton System
@@ -8,8 +7,7 @@
 
 The Paton System is a pre-theoretical framework for determining whether a description, model, or explanation is structurally permitted to proceed before equations, optimisation, or prediction are applied.
 
-It provides a formal classification architecture for admissibility across domains.  
-All materials are archived with DOI registration and version control via Zenodo.
+It provides a formal classification architecture for admissibility across domains.
 
 ---
 
@@ -55,8 +53,7 @@ This site is organised as a **fixed spine with branched field interpretations**.
 ---
 
 ## Primary Publication
-**Paton Unified Equations — Complete Package**  
-DOI: https://doi.org/10.5281/zenodo.18364922
+**Paton Unified Equations — Complete Package**
 
 ---
 
@@ -71,17 +68,13 @@ Official publication lineage and version registry:
 If referencing this framework, please cite:
 
 Paton, Andrew John.  
-*Paton Unified Equations — Complete Package.*  
-DOI: https://doi.org/10.5281/zenodo.18364922  
+*Paton Unified Equations — Complete Package.*
 
 (Or use the included `CITATION.cff` file.)
 
 ---
 
 ## Academic & Public Presence
-Zenodo Archive  
-DOI: https://doi.org/10.5281/zenodo.18364922  
-
 PhilArchive Author Page  
 https://philarchive.org/s/Andrew%20Paton  
 
