@@ -13,7 +13,7 @@ All materials are archived with DOI registration and version control via Zenodo.
 
 ---
 
-**Discipline classification:**  
+**Discipline classification**  
 Philosophy of Science • Systems Theory • Structural Modelling
 
 ---
@@ -32,7 +32,7 @@ It does **not** replace domain-specific theory or physical law; it determines wh
 ---
 
 ## Mechanism Illustration
-<img width="1536" height="1024" alt="file_00000000e30871fa881020aeb1c80f08" src="https://github.com/user-attachments/assets/27eccb10-ecc2-4ee4-80e9-0cd62787c9bb" />
+<img width="1536" height="1024" alt="Paton Formula mechanism diagram" src="https://github.com/user-attachments/assets/27eccb10-ecc2-4ee4-80e9-0cd62787c9bb" />
 
 *Figure — Constraint-mediated recursive emergence illustrated for the Paton Formula.*
 
@@ -56,7 +56,7 @@ This site is organised as a **fixed spine with branched field interpretations**.
 
 ## Primary Publication
 **Paton Unified Equations — Complete Package**  
-https://doi.org/10.5281/zenodo.18364922
+DOI: https://doi.org/10.5281/zenodo.18364922
 
 ---
 
@@ -72,7 +72,7 @@ If referencing this framework, please cite:
 
 Paton, Andrew John.  
 *Paton Unified Equations — Complete Package.*  
-https://doi.org/10.5281/zenodo.18364922  
+DOI: https://doi.org/10.5281/zenodo.18364922  
 
 (Or use the included `CITATION.cff` file.)
 
@@ -80,7 +80,7 @@ https://doi.org/10.5281/zenodo.18364922
 
 ## Academic & Public Presence
 Zenodo Archive  
-https://doi.org/10.5281/zenodo.18364922  
+DOI: https://doi.org/10.5281/zenodo.18364922  
 
 PhilArchive Author Page  
 https://philarchive.org/s/Andrew%20Paton  
