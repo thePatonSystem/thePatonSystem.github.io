@@ -3,30 +3,23 @@
 # The Paton System
 **Admissibility and viability before dynamics**
 
-*A structural admissibility framework for determining when models are permitted to operate.*
+A structural admissibility framework for determining when models are permitted to operate.
 
 ---
+
+## Overview
 
 The Paton System is a pre-theoretical framework for evaluating whether a description, model, or explanation is structurally permitted to proceed before equations, optimisation, or prediction are applied.
 
-It provides a formal architecture for admissibility across domains.
+It provides a domain-neutral architecture for admissibility across mathematical, physical, and conceptual systems.
 
----
-
-## Discipline Classification
-Philosophy of Science • Systems Theory • Structural Modelling
-
----
-
-## Scope
-The Paton System evaluates **structural admissibility conditions only.**
-
-It does **not** replace domain-specific theory or physical law.  
+The framework does not replace domain-specific theory.  
 It determines whether such models are structurally permitted to operate.
 
 ---
 
 ## Structural Overview
+
 <img width="1024" height="1536" src="https://github.com/user-attachments/assets/8260615b-6fa1-48bf-99d4-d2905e096209" />
 
 *Tiered structural architecture of the Paton System.*
@@ -34,6 +27,7 @@ It determines whether such models are structurally permitted to operate.
 ---
 
 ## Mechanism Illustration
+
 <img width="1536" height="1024" src="https://github.com/user-attachments/assets/27eccb10-ecc2-4ee4-80e9-0cd62787c9bb" />
 
 *Constraint-mediated recursive emergence.*
@@ -41,6 +35,7 @@ It determines whether such models are structurally permitted to operate.
 ---
 
 ## Core Anchors
+
 - Boundary  
 - Relation  
 - Persistence  
@@ -48,7 +43,8 @@ It determines whether such models are structurally permitted to operate.
 ---
 
 ## Structural Principle
-This repository presents a **fixed spine with branched field interpretations**:
+
+This repository presents a fixed spine with branched field interpretations:
 
 - The spine remains invariant  
 - Branches elaborate only where required  
@@ -57,26 +53,29 @@ This repository presents a **fixed spine with branched field interpretations**:
 ---
 
 ## Canon & Citation
+
 Formal publication lineage and version registry:
 
 → [Master Canon Index — v1.0](master_index.md)
 
-To cite this framework, use the included `CITATION.cff` file.
+To reference this framework, use the included `CITATION.cff` file.
 
 ---
 
-## Archive & Public Presence
-The archival DOI record of the Paton System is maintained separately.
+## Archive
 
-PhilArchive Author Page:  
-https://philarchive.org/s/Andrew%20Paton  
+The canonical DOI-backed archive of the Paton System is maintained on Zenodo.
 
-Medium Writing:  
-https://medium.com/@andrewjp2008  
+To access the archival record:
+Go to https://zenodo.org  
+Search: “The Paton System — Andrew John Paton”
+
+(Individual DOI links are intentionally not listed here to prevent link rot.)
 
 ---
 
 ## Navigation
+
 - [The Spine](spine.md)  
 - [Fields](fields/index.md)
 
