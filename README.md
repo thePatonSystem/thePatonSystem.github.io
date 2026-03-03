@@ -13,7 +13,7 @@ The Paton System is a pre-theoretical architecture for evaluating whether a desc
 
 It provides a domain-neutral admissibility structure applicable across mathematical, physical, and conceptual systems.
 
-The framework does not replace domain-specific theory or physical law.
+The framework does not replace domain-specific theory or physical law.  
 It determines whether such models are structurally permitted to operate.
 
 ---
@@ -68,26 +68,38 @@ CITATION.cff
 
 The canonical DOI-backed archive of the Paton System is maintained on Zenodo.
 
-Access the archival record:
+Access the archival record:  
 https://zenodo.org
 
-Search:
+Search:  
 “The Paton System — Andrew John Paton”
 
 (Individual DOI links are intentionally omitted to prevent link rot.)
 
 ---
 
+## Academic Feedback & Correspondence
+
+The Paton System welcomes structured critique and technical inquiry.
+
+For academic correspondence:
+
+feedback_patonsystem@protonmail.com
+
+Please reference specific documents or claims when writing.
+
+---
+
 ## Elsewhere
 
-PhilArchive author page:
-https://philarchive.org/s/Andrew%20Paton
+PhilArchive author page:  
+https://philarchive.org/s/Andrew%20Paton  
 
-PhilPapers author page:
-https://philpapers.org/profile/  (use your PhilPapers profile URL here)
+PhilPapers author page:  
+https://philpapers.org/profile/  
 
-Medium:
-https://medium.com/@andrewjp2008
+Medium:  
+https://medium.com/@andrewjp2008  
 
 ---
 
