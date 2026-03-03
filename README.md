@@ -20,6 +20,43 @@ The system functions as a constraint-first admissibility filter applied prior to
 
 ---
 
+## The Tier System
+
+The Tier System is the structural spine of the Paton System.
+
+It describes the ordered conditions under which continuation becomes stable, recursive, and bounded.
+
+Tier 0 — Availability  
+Existence without differentiation.
+
+Tier 1 — Distinction  
+A boundary forms. Inside and outside are defined.
+
+Tier 2 — Constrained Flow  
+Elements interact under limits. Structured variation emerges.
+
+Tier 3 — Admissibility Gate  
+Only constraint-compatible configurations are permitted to continue.
+
+Tier 4 — Datum Interface  
+A stable reference frame is established. Coherence becomes measurable.
+
+Tier 5 — Generative Recursion  
+Structure builds from prior structure. Memory and lineage emerge.
+
+Tier 6 — Structural Laws  
+Load distributes or concentrates. Stability or collapse follows.
+
+Tier 7 — Domain Instantiation  
+The same admissibility structure appears across mathematics, physics, engineering, psychology, and organisations.
+
+Tier 8 — Boundary Horizon  
+The global limit of continuation. Beyond this, regime termination occurs.
+
+Each tier represents a structural condition of continuation — not an ontological claim about reality.
+
+---
+
 ## Structural Architecture
 
 <img width="1024" height="1536" src="https://github.com/user-attachments/assets/8260615b-6fa1-48bf-99d4-d2905e096209" />
