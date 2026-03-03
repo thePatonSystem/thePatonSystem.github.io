@@ -59,7 +59,8 @@ Each tier represents a structural condition of continuation — not an ontologic
 
 ## Structural Architecture
 
-<img width="1024" height="1536" src="https://github.com/user-attachments/assets/8260615b-6fa1-48bf-99d4-d2905e096209" />
+<img width="1024" height="1536" alt="file_0000000036d471fd96a543a168ec4bf2" src="https://github.com/user-attachments/assets/3f22ff71-6a43-4c95-8041-396f2ec5cc6d" />
+
 
 Tiered structural architecture of the Paton System.
 
