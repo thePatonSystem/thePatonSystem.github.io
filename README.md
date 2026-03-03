@@ -18,6 +18,13 @@ It determines whether such models are structurally permitted to operate.
 
 The system functions as a constraint-first admissibility filter applied prior to modelling.
 
+At its core, the Paton System asks a prior question:
+
+**Is continuation permitted under preserved constraints?**
+
+If yes → modelling proceeds.  
+If no → continuation terminates.
+
 ---
 
 ## The Tier System
@@ -57,20 +64,34 @@ Each tier represents a structural condition of continuation — not an ontologic
 
 ---
 
-## Structural Architecture
+## Full System Overview
 
-<img width="1024" height="1536" alt="file_0000000036d471fd96a543a168ec4bf2" src="https://github.com/user-attachments/assets/3f22ff71-6a43-4c95-8041-396f2ec5cc6d" />
+<img width="1024" src="PASTE-YOUR-NEW-COLOURED-TREE-IMAGE-LINK-HERE" />
 
+Complete structural layout of the Paton System (Tier 0–8).
 
-Tiered structural architecture of the Paton System.
+This visual represents the invariant admissibility spine and its domain branches.
 
-Each tier represents a structural condition of continuation, not a metaphysical layer or ontological claim.
+---
+
+## Structural Logic (Compressed Form)
+
+Continuation ⇔ Constraint Compatibility  
+
+Constraint Compatibility ⇔  
+Boundary preserved ∧  
+Relation permitted ∧  
+Persistence possible  
+
+If any invariant fails, continuation is not structurally admissible.
+
+No admissibility → no continuation.
 
 ---
 
 ## Mechanism
 
-<img width="1536" height="1024" src="https://github.com/user-attachments/assets/27eccb10-ecc2-4ee4-80e9-0cd62787c9bb" />
+<img width="1536" src="https://github.com/user-attachments/assets/27eccb10-ecc2-4ee4-80e9-0cd62787c9bb" />
 
 Constraint-mediated recursive emergence.
 
@@ -97,6 +118,9 @@ Branches elaborate only where required.
 All domains inherit identical admissibility conditions.
 
 Expansion is permitted only where structural invariants are preserved.
+
+The Paton System introduces no new domain equations.  
+It evaluates the structural permission conditions under which domain equations may operate.
 
 ---
 
@@ -138,6 +162,8 @@ feedback_patonsystem@protonmail.com
 
 Please reference specific documents or claims when writing.  
 General commentary without structural reference may not receive response.
+
+The framework is designed to withstand structured objection and refinement.
 
 ---
 
