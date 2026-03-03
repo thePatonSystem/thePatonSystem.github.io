@@ -31,32 +31,160 @@ The Tier System is the structural spine of the Paton System.
 
 It describes the ordered conditions under which continuation becomes stable, recursive, and bounded.
 
-**Tier 0 — Availability**  
+---
+
+<details>
+<summary><strong>Tier 0 — Availability</strong></summary>
+
 Existence without differentiation.
 
-**Tier 1 — Distinction**  
+**Extended**
+
+The minimum structural condition — something is present before any boundary, relation, or comparison exists.
+
+Question:  
+Is anything available to evaluate at all?
+
+</details>
+
+---
+
+<details>
+<summary><strong>Tier 1 — Distinction</strong></summary>
+
 A boundary forms. Inside and outside are defined.
 
-**Tier 2 — Constrained Flow**  
+**Extended**
+
+A system becomes identifiable.  
+Without distinction, there is no system membership.
+
+Question:  
+What is in, and what is out?
+
+</details>
+
+---
+
+<details>
+<summary><strong>Tier 2 — Constrained Flow</strong></summary>
+
 Elements interact under limits. Structured variation emerges.
 
-**Tier 3 — Admissibility Gate**  
+**Extended**
+
+Interaction occurs within constraint.  
+Variation is permitted — arbitrariness is not.
+
+Question:  
+What can vary without violating structure?
+
+</details>
+
+---
+
+<details>
+<summary><strong>Tier 3 — Admissibility Gate</strong></summary>
+
 Only constraint-compatible configurations are permitted to continue.
 
-**Tier 4 — Datum Interface**  
+**Extended**
+
+Continuation requires compatibility of:
+
+Boundary ∧ Relation ∧ Persistence
+
+If any invariant fails, continuation terminates.
+
+Question:  
+Is this configuration structurally permitted?
+
+</details>
+
+---
+
+<details>
+<summary><strong>Tier 4 — Datum Interface</strong></summary>
+
 A stable reference frame is established. Coherence becomes measurable.
 
-**Tier 5 — Generative Recursion**  
+**Extended**
+
+A fixed reference enables comparison and stability assessment.
+
+Question:  
+What is the stable reference frame?
+
+</details>
+
+---
+
+<details>
+<summary><strong>Tier 5 — Generative Recursion</strong></summary>
+
 Structure builds from prior structure. Memory and lineage emerge.
 
-**Tier 6 — Structural Laws**  
+**Extended**
+
+Continuation now produces history.  
+Future structure depends on prior admissible structure.
+
+Question:  
+What is being inherited?
+
+</details>
+
+---
+
+<details>
+<summary><strong>Tier 6 — Structural Laws</strong></summary>
+
 Load distributes or concentrates. Stability or collapse follows.
 
-**Tier 7 — Domain Instantiation**  
+**Extended**
+
+Distributed load supports persistence.  
+Concentrated load produces instability.
+
+Question:  
+Is recursion distributed or overloaded?
+
+</details>
+
+---
+
+<details>
+<summary><strong>Tier 7 — Domain Instantiation</strong></summary>
+
 The same admissibility structure appears across mathematics, physics, engineering, psychology, and organisations.
 
-**Tier 8 — Boundary Horizon**  
+**Extended**
+
+Domains differ in expression, not in structural spine.
+
+Question:  
+How does the invariant spine express here?
+
+</details>
+
+---
+
+<details>
+<summary><strong>Tier 8 — Boundary Horizon</strong></summary>
+
 The global limit of continuation. Beyond this, regime termination occurs.
+
+**Extended**
+
+The outer envelope of system persistence.  
+When global compatibility fails, continuation ends.
+
+Question:  
+What is the non-negotiable limit of this system?
+
+</details>
+
+---
 
 *Each tier represents a structural condition of continuation — not an ontological claim about reality.*
 
