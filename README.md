@@ -68,7 +68,6 @@ Each tier represents a structural condition of continuation — not an ontologic
 
 <img width="1024" height="1536" alt="file_00000000360471fd9e80333d6ae812ef" src="https://github.com/user-attachments/assets/84a618c8-97cf-40b1-9476-1a7703607517" />
 
-
 Complete structural layout of the Paton System (Tier 0–8).
 
 This visual represents the invariant admissibility spine and its domain branches.
@@ -141,15 +140,24 @@ All formal documents are versioned and DOI-archived.
 
 ## Archive
 
-The canonical DOI-backed archive of the Paton System is maintained on Zenodo.
+The Paton System is archived through Zenodo with DOI registration and version control.
 
-Access the archival record:  
-https://zenodo.org
+Selected Core Records:
 
-Search:  
-“The Paton System — Andrew John Paton”
+Tier-7 Organisational Stability & Tolerance Dynamics  
+Zenodo Version DOI: 10.5281/zenodo.18844680  
+Concept DOI (all versions): 10.5281/zenodo.18844679  
 
-(Individual DOI links are intentionally omitted to prevent link rot.)
+Cross-Domain Stability Isomorphism in the Paton System  
+Zenodo Version DOI: 10.5281/zenodo.18845190  
+Concept DOI (all versions): 10.5281/zenodo.18845189  
+
+Tier-8 Boundary Horizon: The Global Admissibility Envelope  
+Zenodo Version DOI: 10.5281/zenodo.18845586  
+Concept DOI (all versions): 10.5281/zenodo.18845585  
+
+Additional branch and structural records are archived under the author record:  
+Andrew John Paton — Zenodo.
 
 ---
 
