@@ -66,7 +66,8 @@ Each tier represents a structural condition of continuation — not an ontologic
 
 ## Full System Overview
 
-<img width="1024" src="PASTE-YOUR-NEW-COLOURED-TREE-IMAGE-LINK-HERE" />
+<img width="1024" height="1536" alt="file_00000000360471fd9e80333d6ae812ef" src="https://github.com/user-attachments/assets/84a618c8-97cf-40b1-9476-1a7703607517" />
+
 
 Complete structural layout of the Paton System (Tier 0–8).
 
