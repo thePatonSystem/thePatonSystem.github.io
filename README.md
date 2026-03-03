@@ -33,27 +33,24 @@ It defines the ordered conditions under which continuation becomes stable, recur
 <details>
 <summary><strong>Tier 0 — Availability</strong></summary>
 
-Existence without differentiation.
-
-The minimal structural condition. Something is present before boundary or relation emerges.
+Existence without differentiation.  
+The minimal condition: something is present before boundary or relation emerges.
 
 </details>
 
 <details>
 <summary><strong>Tier 1 — Distinction</strong></summary>
 
-A boundary forms. Inside and outside are defined.
-
-A system becomes identifiable. Without distinction, no membership can be evaluated.
+A boundary forms. Inside and outside are defined.  
+A system becomes identifiable; without distinction, membership cannot be evaluated.
 
 </details>
 
 <details>
 <summary><strong>Tier 2 — Constrained Flow</strong></summary>
 
-Elements interact under limits. Structured variation emerges.
-
-Interaction occurs within constraint. Variation is permitted, arbitrariness is not.
+Elements interact under limits. Structured variation emerges.  
+Variation is permitted within constraint; arbitrariness is not.
 
 </details>
 
@@ -73,8 +70,7 @@ Failure at this layer terminates continuation.
 <details>
 <summary><strong>Tier 4 — Datum Interface</strong></summary>
 
-A stable reference frame is established. Coherence becomes measurable.
-
+A stable reference frame is established. Coherence becomes measurable.  
 A fixed reference enables comparison, evaluation, and stabilisation.
 
 </details>
@@ -82,8 +78,7 @@ A fixed reference enables comparison, evaluation, and stabilisation.
 <details>
 <summary><strong>Tier 5 — Generative Recursion</strong></summary>
 
-Structure builds from prior structure. Memory and lineage emerge.
-
+Structure builds from prior structure. Memory and lineage emerge.  
 Future structure depends on prior admissible structure.
 
 </details>
@@ -91,17 +86,15 @@ Future structure depends on prior admissible structure.
 <details>
 <summary><strong>Tier 6 — Structural Laws</strong></summary>
 
-Load distributes or concentrates. Stability or collapse follows.
-
-Distributed recursion supports persistence. Concentrated load produces instability.
+Load distributes or concentrates. Stability or collapse follows.  
+Distributed recursion supports persistence; concentrated load produces instability.
 
 </details>
 
 <details>
 <summary><strong>Tier 7 — Domain Instantiation</strong></summary>
 
-The same admissibility structure appears across mathematics, physics, engineering, psychology, and organisations.
-
+The same admissibility structure appears across mathematics, physics, engineering, psychology, and organisations.  
 Domains differ in expression, not in structural spine.
 
 </details>
@@ -109,8 +102,7 @@ Domains differ in expression, not in structural spine.
 <details>
 <summary><strong>Tier 8 — Boundary Horizon</strong></summary>
 
-The global limit of continuation.
-
+The global limit of continuation.  
 Beyond this envelope, regime termination occurs.
 
 </details>
@@ -213,6 +205,19 @@ Andrew John Paton.
 
 Please reference specific documents or claims when writing.  
 General commentary without structural reference may not receive response.
+
+---
+
+## Elsewhere
+
+PhilArchive:  
+https://philarchive.org/s/Andrew%20Paton  
+
+PhilPapers:  
+https://philpapers.org/profile/  
+
+Medium:  
+https://medium.com/@andrewjp2008  
 
 ---
 
