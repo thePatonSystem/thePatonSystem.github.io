@@ -15,6 +15,8 @@ New readers should begin with the architectural overview of the framework.
 Architecture Paper
 
 The Paton System: Structural Architecture and Guide to Interpretation  
+https://philarchive.org/s/Andrew%20Paton  
+
 DOI: 10.5281/zenodo.18883634
 
 This document explains:
