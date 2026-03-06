@@ -14,8 +14,7 @@ New readers should begin with the architectural overview of the framework.
 
 **Architecture Paper**
 
-*The Paton System: Structural Architecture and Guide to Interpretation*  
-https://doi.org/10.5281/zenodo.18883634
+*The Paton System: Structural Architecture and Guide to Interpretation*
 
 This document explains:
 
@@ -56,14 +55,19 @@ Domain papers elaborate branches but **do not modify the spine itself**.
 
 ---
 
-<img width="1024" height="1536" alt="file_000000005e7471fa9f9881729f54dda5" src="https://github.com/user-attachments/assets/21905f08-4180-47a8-814a-432c3f37cbcb" />
+# 👇 ADD TIER STACK IMAGE HERE 👇
 
+Replace the line below with the Tier stack image when ready.
+
+```markdown
+![Paton System Tier Stack](images/paton_system_tiers.png)
+```
 
 ---
 
 # Structural Architecture Diagram
 
-![The Paton System Architecture](https://github.com/user-attachments/assets/84a618c8-97cf-40b1-9476-1a7703607517)
+![The Paton System Architecture](images/paton_system_architecture.png)
 
 **Figure — Structural architecture of the Paton System.**
 
@@ -158,9 +162,10 @@ If any invariant fails, continuation is not structurally admissible.
 
 # Mechanism
 
-![Constraint Mediated Recursion](https://github.com/user-attachments/assets/27eccb10-ecc2-4ee4-80e9-0cd62787c9bb)
+![Constraint Mediated Recursion](images/constraint_recursion_diagram.png)
 
-Constraint-mediated recursive emergence.
+Constraint-mediated recursive emergence.  
+(Representative constrained recurrence; domain equations remain domain-specific.)
 
 ---
 
@@ -172,11 +177,89 @@ Boundary
 Relation  
 Persistence  
 
+These anchors determine whether continuation is structurally permitted.
+
+---
+
+# Structural Principle
+
+The repository presents a **fixed structural spine with branched field interpretations**.
+
+The spine remains invariant.  
+Branches elaborate only where required.  
+All domains inherit identical admissibility conditions.
+
+The Paton System introduces **no new domain equations**.  
+It evaluates whether domain equations are structurally permitted to operate.
+
+---
+
+# Reading Order (Recommended)
+
+For new readers the framework is best approached in the following order:
+
+1. Structural Architecture (framework overview)  
+2. Foundation papers (Tier 0–4 admissibility structure)  
+3. Generative machinery (recursive operators)  
+4. Structural laws (persistence and collapse conditions)  
+5. Domain instantiations (physics, mathematics, organisations)
+
+---
+
+# Canon
+
+Formal publication lineage and version registry:
+
+- `master_index.md`  
+- `CITATION.cff`
+
+All documents are versioned and DOI-archived.
+
+---
+
+# Archive
+
+The Paton System archive is maintained through **Zenodo with DOI registration and version control**.
+
+The architecture paper serves as the primary framework entry record.
+
+Selected records are maintained in the formal archive and master index rather than duplicated as unstable external link lists in the repository front page.
+
+---
+
+# Citation
+
+If referencing the Paton System framework, please cite the architecture paper:
+
+Paton, A. J. (2026)  
+*The Paton System: Structural Architecture and Guide to Interpretation*  
+Zenodo. DOI: 10.5281/zenodo.18883634
+
+---
+
+# Academic Correspondence
+
+feedback_patonsystem@protonmail.com
+
+Please reference specific structural documents when writing.
+
+---
+
+# External Indexes
+
+The Paton System also appears in:
+
+- PhilArchive
+- PhilPapers
+- Medium
+
+These are treated as secondary discovery surfaces rather than primary stable archive references.
+
 ---
 
 # Repository Structure
 
-```
+```text
 spine.md
 
 fields/
