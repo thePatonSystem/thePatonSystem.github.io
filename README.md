@@ -56,13 +56,8 @@ Domain papers elaborate branches but **do not modify the spine itself**.
 
 ---
 
-# 👇 ADD TIER STACK IMAGE HERE 👇
+<img width="1024" height="1536" alt="file_000000005e7471fa9f9881729f54dda5" src="https://github.com/user-attachments/assets/21905f08-4180-47a8-814a-432c3f37cbcb" />
 
-Replace the line below with the Tier stack image when ready.
-
-```
-![Paton System Tier Stack](images/paton_system_tiers.png)
-```
 
 ---
 
