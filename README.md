@@ -60,7 +60,7 @@ Domain papers elaborate branches but **do not modify the spine itself**.
 
 # Tier Structure Overview
 
-![The Paton System Tier Architecture]<img width="1024" height="1536" alt="file_000000005e7471fa9f9881729f54dda5" src="https://github.com/user-attachments/assets/2706e8ec-4b3a-4e81-802c-35dc8d0043ec" />
+<img width="1024" height="1536" alt="file_000000005e7471fa9f9881729f54dda5" src="https://github.com/user-attachments/assets/2706e8ec-4b3a-4e81-802c-35dc8d0043ec" />
 
 
 Figure — Tier structure of the Paton System showing the progression from foundational admissibility conditions through generative machinery and structural laws to domain instantiations and boundary limits.
