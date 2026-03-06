@@ -14,7 +14,7 @@ New readers should begin with the architectural overview of the framework.
 
 **Architecture Paper**
 
-The Paton System: Structural Architecture and Guide to Interpretation  
+*The Paton System: Structural Architecture and Guide to Interpretation*  
 https://doi.org/10.5281/zenodo.18883634
 
 This document explains:
@@ -56,6 +56,22 @@ Domain papers elaborate branches but **do not modify the spine itself**.
 
 ---
 
+# Structural Architecture Diagram
+
+![The Paton System Architecture](https://github.com/user-attachments/assets/84a618c8-97cf-40b1-9476-1a7703607517)
+
+**Figure — Structural architecture of the Paton System.**
+
+The framework progresses from foundational admissibility conditions through generative machinery and structural laws to domain instantiations and boundary limits.
+
+Foundation establishes the admissibility spine.  
+Generative machinery produces recursive structure.  
+Structural laws determine persistence or collapse.  
+Domain instantiations apply the same structure across disciplines.  
+The boundary horizon represents the global limits of continuation.
+
+---
+
 # Overview
 
 The Paton System is a **pre-theoretical architecture** for evaluating whether a description, model, or explanation is structurally permitted to proceed **before equations, optimisation, or prediction are applied**.
@@ -72,7 +88,17 @@ At its core the Paton System asks:
 **Is continuation permitted under preserved constraints?**
 
 If yes → modelling proceeds  
-If no → continuation terminates
+If no → continuation terminates.
+
+---
+
+# Scope
+
+The Paton System evaluates **structural admissibility conditions only**.
+
+It does **not propose new physical laws, domain equations, or predictive models**.
+
+Instead, it provides a **pre-model structural filter** determining whether a system configuration is permitted to operate under preserved constraints.
 
 ---
 
@@ -125,20 +151,12 @@ If any invariant fails, continuation is not structurally admissible.
 
 ---
 
-# Full System Overview
-
-<img width="1024" height="1536" alt="Paton System Tier Structure" src="https://github.com/user-attachments/assets/84a618c8-97cf-40b1-9476-1a7703607517" />
-
-Structural architecture of the Paton System (Tier 0–8).
-
----
-
 # Mechanism
 
 <img width="1536" alt="Constraint Mediated Recursion" src="https://github.com/user-attachments/assets/27eccb10-ecc2-4ee4-80e9-0cd62787c9bb" />
 
 Constraint-mediated recursive emergence.  
-(Representative constrained recurrence. Domain equations remain domain-specific.)
+(Representative constrained recurrence; domain equations remain domain-specific.)
 
 ---
 
@@ -167,12 +185,24 @@ It evaluates whether domain equations are structurally permitted to operate.
 
 ---
 
+# Reading Order (Recommended)
+
+For new readers the framework is best approached in the following order:
+
+1. Structural Architecture (framework overview)  
+2. Foundation papers (Tier 0–4 admissibility structure)  
+3. Generative machinery (recursive operators)  
+4. Structural laws (persistence and collapse conditions)  
+5. Domain instantiations (physics, mathematics, organisations)
+
+---
+
 # Canon
 
 Formal publication lineage and version registry:
 
-master_index.md  
-CITATION.cff  
+- `master_index.md`  
+- `CITATION.cff`
 
 All documents are versioned and DOI-archived.
 
@@ -185,16 +215,26 @@ The Paton System archive is maintained through **Zenodo with DOI registration**.
 ### Selected Records
 
 Tier-7 Organisational Stability & Tolerance Dynamics  
-10.5281/zenodo.18844680
+10.5281/zenodo.18844680  
 
 Cross-Domain Stability Isomorphism in the Paton System  
-10.5281/zenodo.18845190
+10.5281/zenodo.18845190  
 
 Tier-8 Boundary Horizon: The Global Admissibility Envelope  
-10.5281/zenodo.18845586
+10.5281/zenodo.18845586  
 
-Additional records appear under the Zenodo author archive  
+Additional records appear under the Zenodo author archive:  
 **Andrew John Paton**
+
+---
+
+# Citation
+
+If referencing the Paton System framework, please cite the architecture paper:
+
+Paton, A. J. (2026)  
+*The Paton System: Structural Architecture and Guide to Interpretation*  
+Zenodo. https://doi.org/10.5281/zenodo.18883634
 
 ---
 
@@ -218,11 +258,18 @@ https://medium.com/@andrewjp2008
 
 # Repository Structure
 
+```
 spine.md
 
 fields/
-mathematics/
-physics/
-organisations/
+    mathematics/
+    physics/
+    organisations/
+```
 
-Field branches elaborate applied domains while inheriting the invariant
+Field branches elaborate applied domains while inheriting the invariant structural spine.
+
+---
+
+© Andrew John Paton 2025–∞  
+Licensed under CC-BY 4.0
