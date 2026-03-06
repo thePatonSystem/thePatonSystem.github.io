@@ -14,7 +14,8 @@ New readers should begin with the architectural overview of the framework.
 
 **Architecture Paper**
 
-*The Paton System: Structural Architecture and Guide to Interpretation*
+*The Paton System: Structural Architecture and Guide to Interpretation*  
+https://doi.org/10.5281/zenodo.18883634
 
 This document explains:
 
@@ -55,19 +56,17 @@ Domain papers elaborate branches but **do not modify the spine itself**.
 
 ---
 
-# 👇 ADD TIER STACK IMAGE HERE 👇
+# Tier Structure Overview
 
-Replace the line below with the Tier stack image when ready.
+![The Paton System Tier Architecture](images/paton_system_tiers.png)
 
-```markdown
-![Paton System Tier Stack](images/paton_system_tiers.png)
-```
+**Figure — Tier structure of the Paton System showing the progression from foundational admissibility conditions through generative machinery and structural laws to domain instantiations and boundary limits.**
 
 ---
 
 # Structural Architecture Diagram
 
-![The Paton System Architecture](images/paton_system_architecture.png)
+![The Paton System Architecture](https://github.com/user-attachments/assets/84a618c8-97cf-40b1-9476-1a7703607517)
 
 **Figure — Structural architecture of the Paton System.**
 
@@ -162,7 +161,7 @@ If any invariant fails, continuation is not structurally admissible.
 
 # Mechanism
 
-![Constraint Mediated Recursion](images/constraint_recursion_diagram.png)
+![Constraint Mediated Recursion](https://github.com/user-attachments/assets/27eccb10-ecc2-4ee4-80e9-0cd62787c9bb)
 
 Constraint-mediated recursive emergence.  
 (Representative constrained recurrence; domain equations remain domain-specific.)
@@ -219,11 +218,33 @@ All documents are versioned and DOI-archived.
 
 # Archive
 
-The Paton System archive is maintained through **Zenodo with DOI registration and version control**.
+The Paton System archive is maintained through **Zenodo with DOI registration**.
 
-The architecture paper serves as the primary framework entry record.
+### Selected Records
 
-Selected records are maintained in the formal archive and master index rather than duplicated as unstable external link lists in the repository front page.
+Tier-7 Organisational Stability & Tolerance Dynamics  
+https://doi.org/10.5281/zenodo.18844680  
+
+Cross-Domain Stability Isomorphism in the Paton System  
+https://doi.org/10.5281/zenodo.18845190  
+
+Tier-8 Boundary Horizon: The Global Admissibility Envelope  
+https://doi.org/10.5281/zenodo.18845586  
+
+The Tolerance Return Law: A Structural Constraint on Branching and Return in Admissible Systems  
+https://doi.org/10.5281/zenodo.18883186  
+
+Field Unevenness and Cluster Separation: A Structural Model of Organisational and Cognitive State Formation  
+https://doi.org/10.5281/zenodo.18883254  
+
+Patoned Systems: Structural Alignment in Human–Operator Systems  
+https://doi.org/10.5281/zenodo.18883356  
+
+The Paton System: Structural Architecture and Guide to Interpretation  
+https://doi.org/10.5281/zenodo.18883634  
+
+Additional records appear under the Zenodo author archive:  
+**Andrew John Paton**
 
 ---
 
@@ -233,7 +254,7 @@ If referencing the Paton System framework, please cite the architecture paper:
 
 Paton, A. J. (2026)  
 *The Paton System: Structural Architecture and Guide to Interpretation*  
-Zenodo. DOI: 10.5281/zenodo.18883634
+Zenodo. https://doi.org/10.5281/zenodo.18883634
 
 ---
 
@@ -245,22 +266,23 @@ Please reference specific structural documents when writing.
 
 ---
 
-# External Indexes
+# Elsewhere
 
-The Paton System also appears in:
+PhilArchive  
+https://philarchive.org/s/Andrew%20Paton  
 
-- PhilArchive
-- PhilPapers
-- Medium
-
-These are treated as secondary discovery surfaces rather than primary stable archive references.
+Medium  
+https://medium.com/@andrewjp2008  
 
 ---
 
 # Repository Structure
 
-```text
+```
 spine.md
+
+images/
+    paton_system_tiers.png
 
 fields/
     mathematics/
