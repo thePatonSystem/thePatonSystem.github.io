@@ -153,7 +153,7 @@ If any invariant fails, continuation is not structurally admissible.
 
 # Mechanism
 
-<img width="1536" alt="Constraint Mediated Recursion" src="https://github.com/user-attachments/assets/27eccb10-ecc2-4ee4-80e9-0cd62787c9bb" />
+![Constraint Mediated Recursion](https://github.com/user-attachments/assets/27eccb10-ecc2-4ee4-80e9-0cd62787c9bb)
 
 Constraint-mediated recursive emergence.  
 (Representative constrained recurrence; domain equations remain domain-specific.)
@@ -215,13 +215,25 @@ The Paton System archive is maintained through **Zenodo with DOI registration**.
 ### Selected Records
 
 Tier-7 Organisational Stability & Tolerance Dynamics  
-10.5281/zenodo.18844680  
+https://doi.org/10.5281/zenodo.18844680  
 
 Cross-Domain Stability Isomorphism in the Paton System  
-10.5281/zenodo.18845190  
+https://doi.org/10.5281/zenodo.18845190  
 
 Tier-8 Boundary Horizon: The Global Admissibility Envelope  
-10.5281/zenodo.18845586  
+https://doi.org/10.5281/zenodo.18845586  
+
+The Tolerance Return Law: A Structural Constraint on Branching and Return in Admissible Systems  
+https://doi.org/10.5281/zenodo.18883186  
+
+Field Unevenness and Cluster Separation: A Structural Model of Organisational and Cognitive State Formation  
+https://doi.org/10.5281/zenodo.18883254  
+
+Patoned Systems: Structural Alignment in Human–Operator Systems  
+https://doi.org/10.5281/zenodo.18883356  
+
+The Paton System: Structural Architecture and Guide to Interpretation  
+https://doi.org/10.5281/zenodo.18883634  
 
 Additional records appear under the Zenodo author archive:  
 **Andrew John Paton**
