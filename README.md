@@ -56,6 +56,16 @@ Domain papers elaborate branches but **do not modify the spine itself**.
 
 ---
 
+# 👇 ADD TIER STACK IMAGE HERE 👇
+
+Replace the line below with the Tier stack image when ready.
+
+```
+![Paton System Tier Stack](images/paton_system_tiers.png)
+```
+
+---
+
 # Structural Architecture Diagram
 
 ![The Paton System Architecture](https://github.com/user-attachments/assets/84a618c8-97cf-40b1-9476-1a7703607517)
@@ -155,8 +165,7 @@ If any invariant fails, continuation is not structurally admissible.
 
 ![Constraint Mediated Recursion](https://github.com/user-attachments/assets/27eccb10-ecc2-4ee4-80e9-0cd62787c9bb)
 
-Constraint-mediated recursive emergence.  
-(Representative constrained recurrence; domain equations remain domain-specific.)
+Constraint-mediated recursive emergence.
 
 ---
 
@@ -167,104 +176,6 @@ All admissibility conditions reduce to compatibility between three structural co
 Boundary  
 Relation  
 Persistence  
-
-These anchors determine whether continuation is structurally permitted.
-
----
-
-# Structural Principle
-
-The repository presents a **fixed structural spine with branched field interpretations**.
-
-The spine remains invariant.  
-Branches elaborate only where required.  
-All domains inherit identical admissibility conditions.
-
-The Paton System introduces **no new domain equations**.  
-It evaluates whether domain equations are structurally permitted to operate.
-
----
-
-# Reading Order (Recommended)
-
-For new readers the framework is best approached in the following order:
-
-1. Structural Architecture (framework overview)  
-2. Foundation papers (Tier 0–4 admissibility structure)  
-3. Generative machinery (recursive operators)  
-4. Structural laws (persistence and collapse conditions)  
-5. Domain instantiations (physics, mathematics, organisations)
-
----
-
-# Canon
-
-Formal publication lineage and version registry:
-
-- `master_index.md`  
-- `CITATION.cff`
-
-All documents are versioned and DOI-archived.
-
----
-
-# Archive
-
-The Paton System archive is maintained through **Zenodo with DOI registration**.
-
-### Selected Records
-
-Tier-7 Organisational Stability & Tolerance Dynamics  
-https://doi.org/10.5281/zenodo.18844680  
-
-Cross-Domain Stability Isomorphism in the Paton System  
-https://doi.org/10.5281/zenodo.18845190  
-
-Tier-8 Boundary Horizon: The Global Admissibility Envelope  
-https://doi.org/10.5281/zenodo.18845586  
-
-The Tolerance Return Law: A Structural Constraint on Branching and Return in Admissible Systems  
-https://doi.org/10.5281/zenodo.18883186  
-
-Field Unevenness and Cluster Separation: A Structural Model of Organisational and Cognitive State Formation  
-https://doi.org/10.5281/zenodo.18883254  
-
-Patoned Systems: Structural Alignment in Human–Operator Systems  
-https://doi.org/10.5281/zenodo.18883356  
-
-The Paton System: Structural Architecture and Guide to Interpretation  
-https://doi.org/10.5281/zenodo.18883634  
-
-Additional records appear under the Zenodo author archive:  
-**Andrew John Paton**
-
----
-
-# Citation
-
-If referencing the Paton System framework, please cite the architecture paper:
-
-Paton, A. J. (2026)  
-*The Paton System: Structural Architecture and Guide to Interpretation*  
-Zenodo. https://doi.org/10.5281/zenodo.18883634
-
----
-
-# Academic Correspondence
-
-feedback_patonsystem@protonmail.com
-
-Please reference specific structural documents when writing.
-
----
-
-# Elsewhere
-
-PhilArchive  
-https://philarchive.org/s/Andrew%20Paton  
-
-Medium  
-https://medium.com/@andrewjp2008  
 
 ---
 
