@@ -1,122 +1,123 @@
-# The Paton System  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18883634.svg)](https://doi.org/10.5281/zenodo.18883634)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+# The Paton System
 **Admissibility and viability before dynamics**
 
 A structural framework for determining when models are permitted to operate.
 
 ---
 
-## Overview
+# Start Here
 
-The Paton System is a pre-theoretical architecture for evaluating whether a description, model, or explanation is structurally permitted to proceed before equations, optimisation, or prediction are applied.
+New readers should begin with the architectural overview of the framework.
 
-It provides a domain-neutral admissibility structure applicable across mathematical, physical, and conceptual systems.
+**Architecture Paper**
 
-The framework does not replace domain-specific theory or physical law.  
-It determines whether such models are structurally permitted to operate.
+The Paton System: Structural Architecture and Guide to Interpretation  
+https://doi.org/10.5281/zenodo.18883634
 
-The system functions as a constraint-first admissibility filter applied prior to modelling.
+This document explains:
 
-At its core, the Paton System asks:
-
-> **Is continuation permitted under preserved constraints?**
-
-If yes → modelling proceeds.  
-If no → continuation terminates.
+• the Tier architecture  
+• the admissibility spine  
+• how the full research archive fits together
 
 ---
 
-## The Tier System
+# Structural Spine
 
-The Tier System is the structural spine of the Paton System.  
-It defines the ordered conditions under which continuation becomes stable, recursive, and bounded.
+The Paton System repository is organised around a fixed structural spine.
 
-<details>
-<summary><strong>Tier 0 — Availability</strong></summary>
+All domain papers, interpretations, and extensions connect to this spine.
 
-Existence without differentiation.  
-The minimal condition: something is present before boundary or relation emerges.
+Availability  
+↓  
+Distinction  
+↓  
+Constrained Flow  
+↓  
+Admissibility Gate  
+↓  
+Datum Interface  
+↓  
+Generative Recursion  
+↓  
+Structural Laws  
+↓  
+Domain Instantiation  
+↓  
+Boundary Horizon  
 
-</details>
+These layers correspond directly to **Tier 0 through Tier 8**.
 
-<details>
-<summary><strong>Tier 1 — Distinction</strong></summary>
-
-A boundary forms. Inside and outside are defined.  
-A system becomes identifiable; without distinction, membership cannot be evaluated.
-
-</details>
-
-<details>
-<summary><strong>Tier 2 — Constrained Flow</strong></summary>
-
-Elements interact under limits. Structured variation emerges.  
-Variation is permitted within constraint; arbitrariness is not.
-
-</details>
-
-<details>
-<summary><strong>Tier 3 — Admissibility Gate</strong></summary>
-
-Only constraint-compatible configurations are permitted to continue.
-
-Continuation requires compatibility of:
-
-Boundary ∧ Relation ∧ Persistence
-
-Failure at this layer terminates continuation.
-
-</details>
-
-<details>
-<summary><strong>Tier 4 — Datum Interface</strong></summary>
-
-A stable reference frame is established. Coherence becomes measurable.  
-A fixed reference enables comparison, evaluation, and stabilisation.
-
-</details>
-
-<details>
-<summary><strong>Tier 5 — Generative Recursion</strong></summary>
-
-Structure builds from prior structure. Memory and lineage emerge.  
-Future structure depends on prior admissible structure.
-
-</details>
-
-<details>
-<summary><strong>Tier 6 — Structural Laws</strong></summary>
-
-Load distributes or concentrates. Stability or collapse follows.  
-Distributed recursion supports persistence; concentrated load produces instability.
-
-</details>
-
-<details>
-<summary><strong>Tier 7 — Domain Instantiation</strong></summary>
-
-The same admissibility structure appears across mathematics, physics, engineering, psychology, and organisations.  
-Domains differ in expression, not in structural spine.
-
-</details>
-
-<details>
-<summary><strong>Tier 8 — Boundary Horizon</strong></summary>
-
-The global limit of continuation.  
-Beyond this envelope, regime termination occurs.
-
-</details>
-
-*Each tier describes a structural condition of continuation — not an ontological claim about reality.*
+The spine is invariant.  
+Domain papers elaborate branches but **do not modify the spine itself**.
 
 ---
 
-## Structural Logic (Compressed Form)
+# Overview
+
+The Paton System is a **pre-theoretical architecture** for evaluating whether a description, model, or explanation is structurally permitted to proceed **before equations, optimisation, or prediction are applied**.
+
+It provides a **domain-neutral admissibility structure** applicable across mathematical, physical, computational, and conceptual systems.
+
+The framework **does not replace domain-specific theories or physical laws**.  
+Instead, it determines whether those models are **structurally permitted to operate**.
+
+The system therefore acts as a **constraint-first admissibility filter applied prior to modelling**.
+
+At its core the Paton System asks:
+
+**Is continuation permitted under preserved constraints?**
+
+If yes → modelling proceeds  
+If no → continuation terminates
+
+---
+
+# The Tier System
+
+### Tier 0 — Availability
+Existence without differentiation.
+
+### Tier 1 — Distinction
+A boundary forms defining inside and outside.
+
+### Tier 2 — Constrained Flow
+Elements interact under limits; structured variation appears.
+
+### Tier 3 — Admissibility Gate
+Only constraint-compatible configurations continue.
+
+Boundary ∧ Relation ∧ Persistence must remain compatible.
+
+### Tier 4 — Datum Interface
+A stable reference frame allows coherence evaluation.
+
+### Tier 5 — Generative Recursion
+Structures build from prior admissible structures.
+
+### Tier 6 — Structural Laws
+Load distribution determines stability or collapse.
+
+### Tier 7 — Domain Instantiation
+The same admissibility structure appears across disciplines.
+
+### Tier 8 — Boundary Horizon
+The global structural limit of continuation.
+
+---
+
+# Structural Logic (Compressed)
 
 Continuation ⇔ Constraint Compatibility  
 
-Constraint Compatibility ⇔  
-Boundary preserved ∧ Relation permitted ∧ Persistence possible  
+Constraint Compatibility ⇔
+
+Boundary preserved  
+Relation permitted  
+Persistence possible  
 
 If any invariant fails, continuation is not structurally admissible.
 
@@ -124,111 +125,104 @@ If any invariant fails, continuation is not structurally admissible.
 
 ---
 
-## Full System Overview
+# Full System Overview
 
 <img width="1024" height="1536" alt="Paton System Tier Structure" src="https://github.com/user-attachments/assets/84a618c8-97cf-40b1-9476-1a7703607517" />
 
-Complete structural layout of the Paton System (Tier 0–8).  
-The invariant admissibility spine and its domain branches.
+Structural architecture of the Paton System (Tier 0–8).
 
 ---
 
-## Mechanism
+# Mechanism
 
 <img width="1536" alt="Constraint Mediated Recursion" src="https://github.com/user-attachments/assets/27eccb10-ecc2-4ee4-80e9-0cd62787c9bb" />
 
 Constraint-mediated recursive emergence.  
-*(Representative constrained recurrence. Domain equations remain domain-specific.)*
+(Representative constrained recurrence. Domain equations remain domain-specific.)
 
 ---
 
-## Core Anchors
+# Core Anchors
+
+All admissibility conditions reduce to compatibility between three structural constraints:
 
 Boundary  
 Relation  
 Persistence  
 
-All admissibility conditions reduce to the compatibility of these structural constraints.
+These anchors determine whether continuation is structurally permitted.
 
 ---
 
-## Structural Principle
+# Structural Principle
 
-The repository presents a fixed spine with branched field interpretations.
+The repository presents a **fixed structural spine with branched field interpretations**.
 
 The spine remains invariant.  
 Branches elaborate only where required.  
 All domains inherit identical admissibility conditions.
 
-The Paton System introduces no new domain equations.  
-It evaluates the structural permission conditions under which domain equations may operate.
+The Paton System introduces **no new domain equations**.  
+It evaluates whether domain equations are structurally permitted to operate.
 
 ---
 
-## Canon
+# Canon
 
 Formal publication lineage and version registry:
 
-- `master_index.md`  
-- `CITATION.cff`
+master_index.md  
+CITATION.cff  
 
-All formal documents are versioned and DOI-archived.
+All documents are versioned and DOI-archived.
 
 ---
 
-## Archive
+# Archive
 
-The Paton System is archived through Zenodo with DOI registration and version control.
+The Paton System archive is maintained through **Zenodo with DOI registration**.
 
 ### Selected Records
 
-**Tier-7 Organisational Stability & Tolerance Dynamics**  
-Version DOI: 10.5281/zenodo.18844680  
-Concept DOI: 10.5281/zenodo.18844679  
+Tier-7 Organisational Stability & Tolerance Dynamics  
+10.5281/zenodo.18844680
 
-**Cross-Domain Stability Isomorphism in the Paton System**  
-Version DOI: 10.5281/zenodo.18845190  
-Concept DOI: 10.5281/zenodo.18845189  
+Cross-Domain Stability Isomorphism in the Paton System  
+10.5281/zenodo.18845190
 
-**Tier-8 Boundary Horizon: The Global Admissibility Envelope**  
-Version DOI: 10.5281/zenodo.18845586  
-Concept DOI: 10.5281/zenodo.18845585  
+Tier-8 Boundary Horizon: The Global Admissibility Envelope  
+10.5281/zenodo.18845586
 
-Additional structural records are archived under the Zenodo author record:  
-Andrew John Paton.
+Additional records appear under the Zenodo author archive  
+**Andrew John Paton**
 
 ---
 
-## Academic Correspondence
+# Academic Correspondence
 
-**feedback_patonsystem@protonmail.com**
+feedback_patonsystem@protonmail.com
 
-Please reference specific documents or claims when writing.  
-General commentary without structural reference may not receive response.
+Please reference specific structural documents when writing.
 
 ---
 
-## Elsewhere
+# Elsewhere
 
-PhilArchive:  
+PhilArchive  
 https://philarchive.org/s/Andrew%20Paton  
 
-PhilPapers:  
-https://philpapers.org/profile/  
-
-Medium:  
+Medium  
 https://medium.com/@andrewjp2008  
 
 ---
 
-## Repository Structure
+# Repository Structure
 
-- `spine.md`  
-- `fields/index.md`
+spine.md
 
-Field branches elaborate applied domains while inheriting the invariant admissibility spine.
+fields/
+mathematics/
+physics/
+organisations/
 
----
-
-© Andrew John Paton 2025–∞  
-Licensed under CC-BY 4.0
+Field branches elaborate applied domains while inheriting the invariant
