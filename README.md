@@ -1,5 +1,5 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18883634.svg)](https://doi.org/10.5281/zenodo.18883634)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+DOI: 10.5281/zenodo.18883634  
+License: CC-BY 4.0
 
 # The Paton System
 **Admissibility and viability before dynamics**
@@ -12,10 +12,10 @@ A structural framework for determining when models are permitted to operate.
 
 New readers should begin with the architectural overview of the framework.
 
-**Architecture Paper**
+Architecture Paper
 
-*The Paton System: Structural Architecture and Guide to Interpretation*  
-https://doi.org/10.5281/zenodo.18883634
+The Paton System: Structural Architecture and Guide to Interpretation  
+DOI: 10.5281/zenodo.18883634
 
 This document explains:
 
@@ -60,7 +60,7 @@ Domain papers elaborate branches but **do not modify the spine itself**.
 
 ![The Paton System Tier Architecture](images/paton_system_tiers.png)
 
-**Figure — Tier structure of the Paton System showing the progression from foundational admissibility conditions through generative machinery and structural laws to domain instantiations and boundary limits.**
+Figure — Tier structure of the Paton System showing the progression from foundational admissibility conditions through generative machinery and structural laws to domain instantiations and boundary limits.
 
 ---
 
@@ -68,7 +68,7 @@ Domain papers elaborate branches but **do not modify the spine itself**.
 
 ![The Paton System Architecture](https://github.com/user-attachments/assets/84a618c8-97cf-40b1-9476-1a7703607517)
 
-**Figure — Structural architecture of the Paton System.**
+Figure — Structural architecture of the Paton System.
 
 The framework progresses from foundational admissibility conditions through generative machinery and structural laws to domain instantiations and boundary limits.
 
@@ -163,8 +163,9 @@ If any invariant fails, continuation is not structurally admissible.
 
 ![Constraint Mediated Recursion](https://github.com/user-attachments/assets/27eccb10-ecc2-4ee4-80e9-0cd62787c9bb)
 
-Constraint-mediated recursive emergence.  
-(Representative constrained recurrence; domain equations remain domain-specific.)
+Constraint-mediated recursive emergence.
+
+Representative constrained recurrence; domain equations remain domain-specific.
 
 ---
 
@@ -209,8 +210,8 @@ For new readers the framework is best approached in the following order:
 
 Formal publication lineage and version registry:
 
-- `master_index.md`  
-- `CITATION.cff`
+- master_index.md  
+- CITATION.cff  
 
 All documents are versioned and DOI-archived.
 
@@ -220,41 +221,31 @@ All documents are versioned and DOI-archived.
 
 The Paton System archive is maintained through **Zenodo with DOI registration**.
 
-### Selected Records
+Selected records:
 
 Tier-7 Organisational Stability & Tolerance Dynamics  
-https://doi.org/10.5281/zenodo.18844680  
+DOI: 10.5281/zenodo.18844680  
 
 Cross-Domain Stability Isomorphism in the Paton System  
-https://doi.org/10.5281/zenodo.18845190  
+DOI: 10.5281/zenodo.18845190  
 
 Tier-8 Boundary Horizon: The Global Admissibility Envelope  
-https://doi.org/10.5281/zenodo.18845586  
+DOI: 10.5281/zenodo.18845586  
 
-The Tolerance Return Law: A Structural Constraint on Branching and Return in Admissible Systems  
-https://doi.org/10.5281/zenodo.18883186  
+The Tolerance Return Law  
+DOI: 10.5281/zenodo.18883186  
 
-Field Unevenness and Cluster Separation: A Structural Model of Organisational and Cognitive State Formation  
-https://doi.org/10.5281/zenodo.18883254  
+Field Unevenness and Cluster Separation  
+DOI: 10.5281/zenodo.18883254  
 
-Patoned Systems: Structural Alignment in Human–Operator Systems  
-https://doi.org/10.5281/zenodo.18883356  
+Patoned Systems  
+DOI: 10.5281/zenodo.18883356  
 
 The Paton System: Structural Architecture and Guide to Interpretation  
-https://doi.org/10.5281/zenodo.18883634  
+DOI: 10.5281/zenodo.18883634  
 
-Additional records appear under the Zenodo author archive:  
-**Andrew John Paton**
-
----
-
-# Citation
-
-If referencing the Paton System framework, please cite the architecture paper:
-
-Paton, A. J. (2026)  
-*The Paton System: Structural Architecture and Guide to Interpretation*  
-Zenodo. https://doi.org/10.5281/zenodo.18883634
+Additional records appear under the Zenodo author archive for  
+Andrew John Paton.
 
 ---
 
@@ -273,6 +264,8 @@ https://philarchive.org/s/Andrew%20Paton
 
 Medium  
 https://medium.com/@andrewjp2008  
+
+These are discovery surfaces rather than primary archive locations.
 
 ---
 
