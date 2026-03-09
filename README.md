@@ -6,11 +6,17 @@ Admissibility and viability before dynamics
 
 A structural framework for determining when models are permitted to operate.
 
+The Paton System provides a domain-neutral admissibility architecture for analysing persistence and collapse across systems.
+
+The structural architecture of the framework is now complete.  
+Current work focuses on clarification, testing, and cross-domain application.
+
 ---
 
 # Navigation
 
 Home  
+Start Here  
 Framework  
 Architecture  
 Publications  
@@ -22,6 +28,8 @@ Author
 # Canonical Definition
 
 The Paton System is a pre-theoretical admissibility framework that determines whether a model, description, or explanation is structurally permitted to operate before equations, optimisation, or prediction are applied.
+
+It evaluates structural permission prior to theory construction.
 
 ---
 
@@ -110,7 +118,7 @@ Availability
 ↓  
 Distinction  
 ↓  
-Constrained Flow  
+Constrained Relation  
 ↓  
 Admissibility Gate  
 ↓  
@@ -172,7 +180,7 @@ Instead it provides a pre-model structural filter determining whether a system c
 
 Tier 0 — Availability  
 Tier 1 — Distinction  
-Tier 2 — Constrained Flow  
+Tier 2 — Constrained Relation  
 Tier 3 — Admissibility Gate  
 Tier 4 — Datum Interface  
 Tier 5 — Generative Recursion  
@@ -265,7 +273,7 @@ Additional records appear under the Zenodo author archive for Andrew John Paton.
 
 feedback_patonsystem@protonmail.com
 
-Please reference the relevant structural document or Tier when writing.
+Please reference specific documents or claims when writing.
 
 ---
 
