@@ -1,4 +1,4 @@
-DOI: 10.5281/zenodo.18883634
+DOI: 10.5281/zenodo.18883634  
 License: CC-BY 4.0
 
 # The Paton System
@@ -71,6 +71,19 @@ The Paton System provides a domain-neutral admissibility structure applicable ac
 
 ---
 
+# Relationship to Existing Theories
+
+The Paton System does not replace domain theories.
+
+Instead it evaluates whether the structural conditions required for a model to operate are satisfied before domain equations are applied.
+
+If admissibility holds, existing scientific theories proceed unchanged.  
+If admissibility fails, continuation is structurally disallowed.
+
+The framework therefore operates as a pre-theoretical structural filter rather than a competing physical or mathematical theory.
+
+---
+
 # Start Here
 
 New readers should begin with the architectural overview of the framework.
@@ -78,7 +91,7 @@ New readers should begin with the architectural overview of the framework.
 Architecture Paper
 
 The Paton System: Structural Architecture and Guide to Interpretation  
-https://philarchive.org/s/Andrew%20Paton
+https://philarchive.org/s/Andrew%20Paton  
 
 DOI: 10.5281/zenodo.18883634
 
@@ -173,6 +186,22 @@ Instead it provides a pre-model structural filter determining whether a system c
 3. Structural invariants must be preserved  
 4. Domain theories remain unchanged  
 5. The framework is domain-neutral  
+
+---
+
+# How the Framework Is Applied
+
+In practice the Paton System evaluates systems through a simple structural procedure.
+
+1 — Identify governing constraints  
+2 — Evaluate structural admissibility  
+3 — Determine whether admissible paths exist  
+4 — Test whether continuation preserves invariants  
+
+If admissibility holds, domain modelling may proceed.  
+If admissibility fails, continuation terminates.
+
+This procedure is independent of domain equations and can therefore be applied across scientific, computational, organisational, and physical systems.
 
 ---
 
