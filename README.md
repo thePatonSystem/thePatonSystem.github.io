@@ -16,8 +16,8 @@ Current work focuses on clarification, testing, and cross-domain application.
 
 ---
 
-# IMMAGE HERE
-(Persistence Law visual)
+<img width="1024" height="1024" alt="file_00000000fd9471fabc81bba3b6e22d09" src="https://github.com/user-attachments/assets/20d24667-284a-444f-807d-83b663262547" />
+
 
 ---
 
