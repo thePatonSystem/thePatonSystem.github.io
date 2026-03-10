@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18883634.svg)](https://doi.org/10.5281/zenodo.18883634)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 DOI: 10.5281/zenodo.18883634  
 License: CC-BY 4.0
 
@@ -10,6 +13,11 @@ The Paton System provides a domain-neutral admissibility architecture for analys
 
 The structural architecture of the framework is now complete.  
 Current work focuses on clarification, testing, and cross-domain application.
+
+---
+
+# IMMAGE HERE
+(Persistence Law visual)
 
 ---
 
@@ -53,6 +61,22 @@ The Paton System instead asks a prior question:
 Is the model structurally permitted to operate at all?
 
 Only models satisfying admissibility conditions are allowed to proceed.
+
+---
+
+# The Paton Persistence Law
+
+Persistence ⇔
+
+T_origin(F,S) = 1  
+∧ S ∈ M(F)  
+∧ R(S) ≤ R_max(F)
+
+A system persists only if:
+
+• it formed under admissible conditions  
+• it remains within governing constraints  
+• it does not exceed structural limits  
 
 ---
 
@@ -155,7 +179,7 @@ Domain papers elaborate branches but do not modify the spine.
 
 # Tier Structure Overview
 
-<img width="1024" height="1536" alt="Paton System Tier Structure" src="https://github.com/user-attachments/assets/2706e8ec-4b3a-4e81-802c-35dc8d0043ec" />
+IMMAGE HERE
 
 Figure — Tier structure of the Paton System.
 
@@ -163,7 +187,7 @@ Figure — Tier structure of the Paton System.
 
 # Structural Architecture Diagram
 
-![The Paton System Architecture](https://github.com/user-attachments/assets/84a618c8-97cf-40b1-9476-1a7703607517)
+IMMAGE HERE
 
 Figure — Structural architecture of the Paton System.
 
