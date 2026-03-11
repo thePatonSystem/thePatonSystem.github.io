@@ -9,7 +9,7 @@ License: CC-BY 4.0
 
 A structural framework for determining when models are permitted to operate.
 
-The Paton System provides a domain-neutral admissibility architecture for analysing persistence and collapse across systems.
+The Paton System provides a **domain-neutral admissibility architecture** for analysing persistence and collapse across systems.
 
 The structural architecture of the framework is now complete.  
 Current work focuses on clarification, testing, and cross-domain application.
@@ -80,7 +80,7 @@ The Paton System evaluates the **conditions under which valid states can exist a
 
 Only models satisfying admissibility conditions are allowed to proceed.
 
-The framework therefore acts as a structural filter determining when modelling is permitted.
+The framework therefore acts as a **structural filter determining when modelling is permitted.**
 
 ---
 
@@ -210,6 +210,8 @@ Admissibility
 Observation
 ↓
 Continuation
+↓
+Persistence
 ```
 
 This sequence represents the minimal structural process through which systems form, become observable, and persist.
@@ -244,13 +246,11 @@ IMAGE HERE
 
 Figure — Structural architecture of the Paton System.
 
-The architecture separates structural formation from domain modelling.
-
-Lower tiers determine system membership and admissibility.  
-Higher tiers describe structural laws and domain instantiations.
+Lower tiers determine **system membership and admissibility**.  
+Higher tiers describe **laws, continuation mechanisms, and domain instantiations**.
 
 The architecture is invariant.  
-Branch papers extend applications without modifying the spine.
+Branch papers extend applications without modifying the structural spine.
 
 ---
 
