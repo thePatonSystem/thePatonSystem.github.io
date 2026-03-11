@@ -72,18 +72,6 @@ States that fail either condition cannot belong to the system regardless of whet
 
 ---
 
-# Key Idea
-
-Scientific modelling normally assumes that valid system states already exist.
-
-The Paton System evaluates the **conditions under which valid states can exist at all.**
-
-Only models satisfying admissibility conditions are allowed to proceed.
-
-The framework therefore acts as a **structural filter determining when modelling is permitted.**
-
----
-
 # The Paton Persistence Law
 
 Persistence ⇔
@@ -102,73 +90,23 @@ If any of these conditions fail, structural continuation terminates.
 
 ---
 
-# Who This Framework Is For
+# Structural Compression Symbol
 
-The Paton System is intended for readers working in:
+The minimal structural architecture of the framework can be represented symbolically as:
 
-• Philosophy of Science  
-• Systems Theory  
-• Mathematics  
-• Physics  
-• Computational Systems  
-• Complex Systems Research  
+```
+∞ ● { } ● ∞
+```
 
-The framework provides a **domain-neutral admissibility structure** applicable across these fields.
+Where:
 
----
+• left ∞ represents unconstrained possibility  
+• first ● represents the original datum  
+• { } represents structured system formation  
+• second ● represents the observational datum interface  
+• right ∞ represents the open horizon of future admissible states  
 
-# Relationship to Existing Theories
-
-The Paton System **does not replace domain theories.**
-
-Instead it evaluates whether the structural conditions required for a model to operate are satisfied before domain equations are applied.
-
-If admissibility holds → existing scientific theories proceed unchanged.  
-If admissibility fails → continuation is structurally disallowed.
-
-The framework therefore operates as a **pre-theoretical structural filter**, not a competing scientific theory.
-
----
-
-# Start Here
-
-New readers should begin with the architectural overview of the framework.
-
-**The Paton System: Structural Architecture and Guide to Interpretation**
-
-PhilArchive  
-https://philarchive.org/s/Andrew%20Paton  
-
-DOI  
-10.5281/zenodo.18883634
-
-This document explains:
-
-• the Tier architecture  
-• the admissibility spine  
-• how the research archive is organised  
-• how domain papers connect to the framework  
-
----
-
-# How to Use This Site
-
-This site functions as a **navigation layer** for the Paton System research archive.
-
-The website explains:
-
-• the structure of the framework  
-• the tier architecture  
-• how papers connect to the system  
-
-Primary research documents are archived externally with DOI registration.
-
-Archive locations:
-
-Zenodo — permanent research archive  
-PhilArchive — academic indexing  
-
-The website therefore acts as a **map of the framework**, not the primary archive.
+This symbol compresses the full structural architecture of the Paton System into a single representation.
 
 ---
 
@@ -222,11 +160,7 @@ Continuation recursively evolves those states.
 
 ---
 
-# Tier Structure Overview
-
-IMAGE HERE
-
-Figure — Tier architecture of the Paton System.
+# Tier Architecture
 
 Tier 0 — Availability  
 Tier 1 — Distinction  
@@ -238,112 +172,84 @@ Tier 6 — Structural Laws
 Tier 7 — Domain Instantiation  
 Tier 8 — Boundary Horizon  
 
----
-
-# Structural Architecture Diagram
-
-IMAGE HERE
-
-Figure — Structural architecture of the Paton System.
-
 Lower tiers determine **system membership and admissibility**.  
-Higher tiers describe **laws, continuation mechanisms, and domain instantiations**.
-
-The architecture is invariant.  
-Branch papers extend applications without modifying the structural spine.
+Higher tiers describe **structural behaviour and domain instantiations**.
 
 ---
 
-# Scope
+# What the Framework Does
 
-The Paton System evaluates **structural admissibility conditions only.**
+The Paton System evaluates:
 
-It does not introduce new physical laws, domain equations, or predictive models.
+• whether system states are structurally admissible  
+• whether continuation is permitted  
+• whether persistence can occur  
+• whether collapse conditions are triggered  
 
-Instead it provides a **pre-model structural filter** determining whether a system configuration is permitted to operate under preserved constraints.
-
----
-
-# Core Framework Principles
-
-1. Admissibility precedes modelling  
-2. Constraint compatibility determines continuation  
-3. Structural invariants must be preserved  
-4. Domain theories remain unchanged  
-5. The framework is domain-neutral  
+It therefore provides a **structural filter before modelling begins**.
 
 ---
 
-# How the Framework Is Applied
+# What the Framework Does NOT Claim
 
-In practice the Paton System evaluates systems through a simple structural procedure.
+The Paton System **does not introduce new physical laws**.
 
-1 — Identify governing constraints  
-2 — Evaluate structural admissibility  
-3 — Determine whether admissible paths exist  
-4 — Test whether continuation preserves invariants  
+It does not replace:
 
-If admissibility holds, domain modelling may proceed.
+• physics  
+• biology  
+• engineering  
+• mathematics  
+• computational models  
 
-If admissibility fails, continuation terminates.
-
-This procedure is independent of domain equations and therefore applicable across **scientific, computational, organisational, and physical systems.**
-
----
-
-# Structural Logic
-
-Continuation ⇔ Constraint Compatibility
-
-Boundary preserved  
-Relation permitted  
-Persistence possible  
-
-No admissibility → no continuation.
+Instead it determines whether those models are **structurally permitted to operate**.
 
 ---
 
-# Core Anchors
+# Who This Framework Is For
 
-Boundary  
-Relation  
-Persistence
+The Paton System is intended for readers working in:
 
----
+• Philosophy of Science  
+• Systems Theory  
+• Mathematics  
+• Physics  
+• Computational Systems  
+• Complex Systems Research  
 
-# Reading Order
-
-1. Structural Architecture  
-2. Foundation papers (Tier 0–4)  
-3. Generative machinery  
-4. Structural laws  
-5. Domain instantiations  
+The framework provides a **domain-neutral admissibility structure** applicable across these fields.
 
 ---
 
-# Canon
+# Start Here
 
-master_index.md  
-CITATION.cff  
+New readers should begin with the architectural overview.
 
-All documents are versioned and DOI-archived.
+**The Paton System: Structural Architecture and Guide to Interpretation**
 
----
+PhilArchive  
+https://philarchive.org/s/Andrew%20Paton  
 
-# Citation
+Zenodo DOI  
+https://doi.org/10.5281/zenodo.18883634
 
-Andrew John Paton  
-*The Paton System: Structural Architecture and Guide to Interpretation*
+This document explains:
 
-DOI: 10.5281/zenodo.18883634
+• the Tier architecture  
+• the admissibility spine  
+• how the research archive is organised  
+• how domain papers connect to the framework  
 
 ---
 
 # Archive
 
-The Paton System archive is maintained through Zenodo with DOI registration.
+The Paton System research archive is maintained on Zenodo.
 
-Selected records:
+Zenodo Author Archive  
+https://zenodo.org/search?q=Andrew%20John%20Paton
+
+Selected records include:
 
 Tier-7 Organisational Stability & Tolerance Dynamics  
 DOI: 10.5281/zenodo.18844680  
@@ -366,7 +272,49 @@ DOI: 10.5281/zenodo.18883356
 Structural Architecture and Guide to Interpretation  
 DOI: 10.5281/zenodo.18883634  
 
-Additional records appear under the Zenodo author archive for Andrew John Paton.
+---
+
+# Research Status
+
+The structural architecture of the Paton System is now complete.
+
+Current work focuses on:
+
+• clarification papers  
+• cross-domain applications  
+• structural equivalence with existing theories  
+• expansion of Tier-6 and Tier-7 domain examples  
+
+---
+
+# Structural Logic
+
+Continuation ⇔ Constraint Compatibility
+
+Boundary preserved  
+Relation permitted  
+Persistence possible  
+
+No admissibility → no continuation.
+
+---
+
+# Reading Order
+
+1. Structural Architecture  
+2. Foundation papers (Tier 0–4)  
+3. Generative mechanisms (Tier 5–6)  
+4. Structural laws  
+5. Domain instantiations  
+
+---
+
+# Citation
+
+Andrew John Paton  
+*The Paton System: Structural Architecture and Guide to Interpretation*
+
+DOI: 10.5281/zenodo.18883634
 
 ---
 
@@ -386,10 +334,14 @@ https://philarchive.org/s/Andrew%20Paton
 Medium  
 https://medium.com/@andrewjp2008  
 
+Zenodo  
+https://zenodo.org/search?q=Andrew%20John%20Paton
+
 ---
 
 # Repository Structure
 
+```
 spine.md
 
 images/
@@ -399,6 +351,7 @@ fields/
     mathematics/
     physics/
     organisations/
+```
 
 ---
 
