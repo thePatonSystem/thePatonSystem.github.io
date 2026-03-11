@@ -5,7 +5,7 @@ DOI: 10.5281/zenodo.18883634
 License: CC-BY 4.0
 
 # The Paton System
-Admissibility and viability before dynamics
+### Admissibility and viability before dynamics
 
 A structural framework for determining when models are permitted to operate.
 
@@ -16,8 +16,7 @@ Current work focuses on clarification, testing, and cross-domain application.
 
 ---
 
-<img width="1024" height="1024" alt="file_00000000fd9471fabc81bba3b6e22d09" src="https://github.com/user-attachments/assets/20d24667-284a-444f-807d-83b663262547" />
-
+<img width="1024" height="1024" alt="Paton System Tier Architecture" src="https://github.com/user-attachments/assets/20d24667-284a-444f-807d-83b663262547" />
 
 ---
 
@@ -35,32 +34,53 @@ Author
 
 # Canonical Definition
 
-The Paton System is a pre-theoretical admissibility framework that determines whether a model, description, or explanation is structurally permitted to operate before equations, optimisation, or prediction are applied.
+The Paton System is a **pre-theoretical admissibility framework** that determines whether a model, description, or explanation is structurally permitted to operate **before equations, optimisation, or prediction are applied.**
 
-It evaluates structural permission prior to theory construction.
+Rather than modifying domain equations, the framework evaluates whether the structural conditions required for a model to operate are satisfied in the first place.
+
+The framework therefore operates as a **structural permission layer prior to theory construction.**
 
 ---
 
 # 30-Second Summary
 
-The Paton System evaluates whether a model or explanation is structurally permitted to operate before equations, optimisation, or prediction are applied.
+Most scientific frameworks assume that candidate models already describe valid states.
 
-If admissibility holds → modelling may proceed  
-If admissibility fails → continuation terminates
+The Paton System instead asks a prior structural question:
 
-The framework therefore evaluates structural permission prior to theory construction.
+**Is the model structurally permitted to operate at all?**
+
+If admissibility holds → modelling may proceed.  
+If admissibility fails → continuation terminates.
+
+The framework therefore evaluates **structural permission before theory construction begins.**
+
+---
+
+# Core System Rule
+
+```
+State ∈ System ⇔ Admissible ∧ Reachable
+```
+
+A system state belongs to a system only if:
+
+• it satisfies governing structural constraints  
+• it lies on at least one admissible path from a permitted origin  
+
+States that fail either condition cannot belong to the system regardless of whether they are conceivable, describable, or mathematically consistent.
 
 ---
 
 # Key Idea
 
-Most scientific frameworks assume that a model is already valid.
+Scientific modelling normally assumes that valid system states already exist.
 
-The Paton System instead asks a prior question:
-
-Is the model structurally permitted to operate at all?
+The Paton System evaluates the **conditions under which valid states can exist at all.**
 
 Only models satisfying admissibility conditions are allowed to proceed.
+
+The framework therefore acts as a structural filter determining when modelling is permitted.
 
 ---
 
@@ -78,33 +98,35 @@ A system persists only if:
 • it remains within governing constraints  
 • it does not exceed structural limits  
 
+If any of these conditions fail, structural continuation terminates.
+
 ---
 
-# Who This Is For
+# Who This Framework Is For
 
-This framework is intended for readers working in:
+The Paton System is intended for readers working in:
 
-• philosophy of science  
-• systems theory  
-• mathematics  
-• physics  
-• computational systems  
-• complex systems research  
+• Philosophy of Science  
+• Systems Theory  
+• Mathematics  
+• Physics  
+• Computational Systems  
+• Complex Systems Research  
 
-The Paton System provides a domain-neutral admissibility structure applicable across these fields.
+The framework provides a **domain-neutral admissibility structure** applicable across these fields.
 
 ---
 
 # Relationship to Existing Theories
 
-The Paton System does not replace domain theories.
+The Paton System **does not replace domain theories.**
 
 Instead it evaluates whether the structural conditions required for a model to operate are satisfied before domain equations are applied.
 
-If admissibility holds, existing scientific theories proceed unchanged.  
-If admissibility fails, continuation is structurally disallowed.
+If admissibility holds → existing scientific theories proceed unchanged.  
+If admissibility fails → continuation is structurally disallowed.
 
-The framework therefore operates as a pre-theoretical structural filter rather than a competing physical or mathematical theory.
+The framework therefore operates as a **pre-theoretical structural filter**, not a competing scientific theory.
 
 ---
 
@@ -112,12 +134,13 @@ The framework therefore operates as a pre-theoretical structural filter rather t
 
 New readers should begin with the architectural overview of the framework.
 
-Architecture Paper
+**The Paton System: Structural Architecture and Guide to Interpretation**
 
-The Paton System: Structural Architecture and Guide to Interpretation  
+PhilArchive  
 https://philarchive.org/s/Andrew%20Paton  
 
-DOI: 10.5281/zenodo.18883634
+DOI  
+10.5281/zenodo.18883634
 
 This document explains:
 
@@ -130,7 +153,7 @@ This document explains:
 
 # How to Use This Site
 
-This site functions as a navigation layer for the Paton System research archive.
+This site functions as a **navigation layer** for the Paton System research archive.
 
 The website explains:
 
@@ -145,7 +168,7 @@ Archive locations:
 Zenodo — permanent research archive  
 PhilArchive — academic indexing  
 
-The website therefore acts as a map of the framework, not the primary archive.
+The website therefore acts as a **map of the framework**, not the primary archive.
 
 ---
 
@@ -169,37 +192,75 @@ Domain Instantiation
 ↓  
 Boundary Horizon  
 
-These layers correspond directly to Tier 0 through Tier 8.
+These layers correspond directly to **Tier 0 through Tier 8.**
 
 The spine is invariant.
 
-Domain papers elaborate branches but do not modify the spine.
+Domain papers elaborate branches but do not modify the structural spine.
+
+---
+
+# Structural Pipeline
+
+```
+Formation
+↓
+Admissibility
+↓
+Observation
+↓
+Continuation
+```
+
+This sequence represents the minimal structural process through which systems form, become observable, and persist.
+
+Admissibility determines structural permission.  
+Observation registers admissible states.  
+Continuation recursively evolves those states.
 
 ---
 
 # Tier Structure Overview
 
-IMMAGE HERE
+IMAGE HERE
 
-Figure — Tier structure of the Paton System.
+Figure — Tier architecture of the Paton System.
+
+Tier 0 — Availability  
+Tier 1 — Distinction  
+Tier 2 — Constrained Relation  
+Tier 3 — Admissibility Gate  
+Tier 4 — Datum Interface  
+Tier 5 — Generative Recursion  
+Tier 6 — Structural Laws  
+Tier 7 — Domain Instantiation  
+Tier 8 — Boundary Horizon  
 
 ---
 
 # Structural Architecture Diagram
 
-IMMAGE HERE
+IMAGE HERE
 
 Figure — Structural architecture of the Paton System.
+
+The architecture separates structural formation from domain modelling.
+
+Lower tiers determine system membership and admissibility.  
+Higher tiers describe structural laws and domain instantiations.
+
+The architecture is invariant.  
+Branch papers extend applications without modifying the spine.
 
 ---
 
 # Scope
 
-The Paton System evaluates structural admissibility conditions only.
+The Paton System evaluates **structural admissibility conditions only.**
 
 It does not introduce new physical laws, domain equations, or predictive models.
 
-Instead it provides a pre-model structural filter determining whether a system configuration is permitted to operate under preserved constraints.
+Instead it provides a **pre-model structural filter** determining whether a system configuration is permitted to operate under preserved constraints.
 
 ---
 
@@ -222,24 +283,11 @@ In practice the Paton System evaluates systems through a simple structural proce
 3 — Determine whether admissible paths exist  
 4 — Test whether continuation preserves invariants  
 
-If admissibility holds, domain modelling may proceed.  
+If admissibility holds, domain modelling may proceed.
+
 If admissibility fails, continuation terminates.
 
-This procedure is independent of domain equations and can therefore be applied across scientific, computational, organisational, and physical systems.
-
----
-
-# The Tier System
-
-Tier 0 — Availability  
-Tier 1 — Distinction  
-Tier 2 — Constrained Relation  
-Tier 3 — Admissibility Gate  
-Tier 4 — Datum Interface  
-Tier 5 — Generative Recursion  
-Tier 6 — Structural Laws  
-Tier 7 — Domain Instantiation  
-Tier 8 — Boundary Horizon  
+This procedure is independent of domain equations and therefore applicable across **scientific, computational, organisational, and physical systems.**
 
 ---
 
@@ -285,7 +333,7 @@ All documents are versioned and DOI-archived.
 # Citation
 
 Andrew John Paton  
-The Paton System: Structural Architecture and Guide to Interpretation  
+*The Paton System: Structural Architecture and Guide to Interpretation*
 
 DOI: 10.5281/zenodo.18883634
 
