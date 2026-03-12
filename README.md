@@ -41,7 +41,8 @@ The framework operates **prior to theory construction**, determining whether mod
 
 ---
 
-<img width="1024" height="1024" alt="Paton System Tier Architecture" src="https://github.com/user-attachments/assets/20d24667-284a-444f-807d-83b663262547" />
+<img width="1024" height="1536" alt="file_00000000c4b0720bb76d8b5dedd86325" src="https://github.com/user-attachments/assets/67b8ae34-7aa7-4c2f-95d4-485e33dbc944" />
+
 
 ---
 
