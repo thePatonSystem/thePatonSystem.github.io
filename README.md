@@ -41,7 +41,8 @@ The framework operates **prior to theory construction**, determining whether mod
 
 ---
 
-<img width="1024" height="1536" alt="file_00000000c4b0720bb76d8b5dedd86325" src="https://github.com/user-attachments/assets/67b8ae34-7aa7-4c2f-95d4-485e33dbc944" />
+<img width="1024" height="1536" alt="file_00000000fe0c720baa6727dc6a7a47ee" src="https://github.com/user-attachments/assets/c92270c2-9b59-44d5-8b4e-c705b0e627b9" />
+
 
 
 ---
