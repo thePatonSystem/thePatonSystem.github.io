@@ -4,15 +4,40 @@
 DOI: 10.5281/zenodo.18883634  
 License: CC-BY 4.0
 
-# The Paton System
-### Admissibility and viability before dynamics
+# THE PATON SYSTEM
+## Admissibility and viability before dynamics
 
-A structural framework for determining when models are permitted to operate.
+A structural framework determining when systems are **permitted to form, continue, persist, and terminate.**
+
+---
+
+## Structural Overview
+
+```text
+THE PATON SYSTEM
+    \/
+Structural Permission
+    \/
+Admissibility
+    \/
+Observation
+    \/
+Continuation
+    \/
+Persistence
+    \/
+Termination
+```
+
+This descending structure represents the **core functional logic** of the framework.
+
+---
+
+# The Paton System
 
 The Paton System provides a **domain-neutral admissibility architecture** for analysing persistence and collapse across systems.
 
-The structural architecture of the framework is now complete.  
-Current work focuses on clarification, testing, and cross-domain application.
+The framework operates **prior to theory construction**, determining whether modelling is structurally permitted before equations, optimisation, or prediction are applied.
 
 ---
 
@@ -38,15 +63,15 @@ The Paton System is a **pre-theoretical admissibility framework** that determine
 
 Rather than modifying domain equations, the framework evaluates whether the structural conditions required for a model to operate are satisfied in the first place.
 
-The framework therefore operates as a **structural permission layer prior to theory construction.**
+The framework therefore functions as a **structural permission layer prior to theory construction.**
 
 ---
 
 # 30-Second Summary
 
-Most scientific frameworks assume that candidate models already describe valid states.
+Most scientific frameworks assume candidate models already describe valid states.
 
-The Paton System instead asks a prior structural question:
+The Paton System asks a prior structural question:
 
 **Is the model structurally permitted to operate at all?**
 
@@ -92,8 +117,6 @@ If any of these conditions fail, structural continuation terminates.
 
 # Structural Compression Symbol
 
-The minimal structural architecture of the framework can be represented symbolically as:
-
 ```
 ∞ ● { } ● ∞
 ```
@@ -112,23 +135,27 @@ This symbol compresses the full structural architecture of the Paton System into
 
 # Structural Spine
 
-Availability  
-↓  
-Distinction  
-↓  
-Constrained Relation  
-↓  
-Admissibility Gate  
-↓  
-Datum Interface  
-↓  
-Generative Recursion  
-↓  
-Structural Laws  
-↓  
-Domain Instantiation  
-↓  
-Boundary Horizon  
+```
+Boundary
+  \/
+Availability
+  \/
+Distinction
+  \/
+Formation
+  \/
+Admissibility
+  \/
+Observation
+  \/
+Continuation
+  \/
+Persistence
+  \/
+Termination
+  \/
+Boundary
+```
 
 These layers correspond directly to **Tier 0 through Tier 8.**
 
@@ -142,13 +169,13 @@ Domain papers elaborate branches but do not modify the structural spine.
 
 ```
 Formation
-↓
+  \/
 Admissibility
-↓
+  \/
 Observation
-↓
+  \/
 Continuation
-↓
+  \/
 Persistence
 ```
 
@@ -173,7 +200,7 @@ Tier 7 — Domain Instantiation
 Tier 8 — Boundary Horizon  
 
 Lower tiers determine **system membership and admissibility**.  
-Higher tiers describe **structural behaviour and domain instantiations**.
+Higher tiers describe **structural behaviour and domain instantiation**.
 
 ---
 
@@ -186,13 +213,13 @@ The Paton System evaluates:
 • whether persistence can occur  
 • whether collapse conditions are triggered  
 
-It therefore provides a **structural filter before modelling begins**.
+It therefore provides a **structural filter before modelling begins.**
 
 ---
 
 # What the Framework Does NOT Claim
 
-The Paton System **does not introduce new physical laws**.
+The Paton System **does not introduce new physical laws.**
 
 It does not replace:
 
@@ -202,7 +229,7 @@ It does not replace:
 • mathematics  
 • computational models  
 
-Instead it determines whether those models are **structurally permitted to operate**.
+Instead it determines whether those models are **structurally permitted to operate.**
 
 ---
 
@@ -232,13 +259,6 @@ https://philarchive.org/s/Andrew%20Paton
 
 Zenodo DOI  
 https://doi.org/10.5281/zenodo.18883634
-
-This document explains:
-
-• the Tier architecture  
-• the admissibility spine  
-• how the research archive is organised  
-• how domain papers connect to the framework  
 
 ---
 
