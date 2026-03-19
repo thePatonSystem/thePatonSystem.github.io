@@ -30,32 +30,32 @@ scientific explanations remain valid, and continuation remains possible across d
 <div style="margin-top:30px;font-size:17px;line-height:2;">
 
 <strong>Anchor Paper</strong><br>
-<a href="https://doi.org/10.5281/zenodo.19033299">
+<a href="https://doi.org/10.5281/zenodo.19033299" style="font-size:14px;color:#666;">
 https://doi.org/10.5281/zenodo.19033299
 </a><br><br>
 
 Seeing Through the Optics<br>
-<a href="https://doi.org/10.5281/zenodo.19030100">
+<a href="https://doi.org/10.5281/zenodo.19030100" style="font-size:14px;color:#666;">
 https://doi.org/10.5281/zenodo.19030100
 </a><br><br>
 
 Recursive Admissibility Architecture<br>
-<a href="https://doi.org/10.5281/zenodo.19032526">
+<a href="https://doi.org/10.5281/zenodo.19032526" style="font-size:14px;color:#666;">
 https://doi.org/10.5281/zenodo.19032526
 </a><br><br>
 
 Viability Gradient<br>
-<a href="https://doi.org/10.5281/zenodo.19032730">
+<a href="https://doi.org/10.5281/zenodo.19032730" style="font-size:14px;color:#666;">
 https://doi.org/10.5281/zenodo.19032730
 </a><br><br>
 
 Admissibility Margin<br>
-<a href="https://doi.org/10.5281/zenodo.19114554">
+<a href="https://doi.org/10.5281/zenodo.19114554" style="font-size:14px;color:#666;">
 https://doi.org/10.5281/zenodo.19114554
 </a><br><br>
 
 Admissibility Control<br>
-<a href="https://doi.org/10.5281/zenodo.19115236">
+<a href="https://doi.org/10.5281/zenodo.19115236" style="font-size:14px;color:#666;">
 https://doi.org/10.5281/zenodo.19115236
 </a>
 
