@@ -3,7 +3,7 @@
 <h1 style="font-size:46px;margin-bottom:8px;">THE PATON SYSTEM</h1>
 
 <p style="font-size:18px;color:#555;margin-bottom:40px;">
-Structural Admissibility and System Continuation
+Positioned prior to modelling — governing admissibility and continuation
 </p>
 
 <div style="font-size:21px;line-height:2.2;margin-bottom:40px;">
