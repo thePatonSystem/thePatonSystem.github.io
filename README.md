@@ -1,6 +1,6 @@
 <h1>THE PATON SYSTEM</h1>
 
-<p>Positioned prior to modelling — governing admissibility, continuation, and structural viability</p>
+<p>Positioned prior to modelling — governing admissibility and continuation</p>
 
 <br>
 
@@ -18,71 +18,49 @@ Boundary → Availability → Distinction → Formation → Admissibility → Ob
 <p>↓</p>
 
 <p><strong>Tier 1 — Distinction</strong> 🔒</p>
-<p>Boundary emergence and first separation</p>
+<p>Boundary emergence</p>
 <p>↓</p>
 
 <p><strong>Tier 2 — Formation</strong> 🔒</p>
-<p>Relations, structure formation, constraint interaction</p>
+<p>Relations and structure</p>
 <p>↓</p>
 
 <p><strong>Tier 3 — Admissibility</strong> 🔒</p>
-<p>Paton Admissibility Test, permission to exist and continue</p>
+<p>Permission to exist and continue</p>
 <p>↓</p>
 
-<p><strong>Tier 4 — Observation Interface</strong> 🔒</p>
-<p>Datum, measurement, observable system representation</p>
+<p><strong>Tier 4 — Observation</strong> 🔒</p>
+<p>Measurement and representation</p>
 <p>↓</p>
 
 <p><strong>Tier 5 — Continuation</strong> 🔒</p>
-<p>Recursive evolution, time unfolding, persistence</p>
+<p>Recursive persistence through time</p>
 <p>↓</p>
 
 <p><strong>Tier 6 — Structural Framework</strong> 🔒</p>
-<p>Field → Motion → Control → Collapse</p>
+<p>Geometry motion control collapse</p>
 <p>↓</p>
 
 <p><strong>Tier 7 — Domain Systems</strong> 🔐</p>
-<p>Mathematics → Physics → Computation / AI → Organisational / Economic systems</p>
+<p>Mathematics physics computation AI organisational economic systems</p>
 <p>↓</p>
 
 <p><strong>Tier 8 — Boundary Horizon</strong> 🔒</p>
-<p>Continuity corridor, global admissibility limits, stopping condition</p>
-
-<br><br>
-
-<p><strong>Tier 6 Internal Structure</strong></p>
-<p>
-Admissibility Field → Curvature → Trajectories → Basin Transitions → Control → Control Cost → Control Limits → Point of No Return → Post-Collapse Dynamics → System Re-Entry → Successor Formation → Terminal Collapse
-</p>
+<p>Global limits and stopping condition</p>
 
 <br><br>
 
 <p>
 The Paton System describes the structural conditions under which systems remain admissible,
-observable, continuable, and governable across domains.
+observable, continuable, and bounded across domains.
 </p>
 
 <br>
 
-<p><strong>Anchor Papers</strong></p>
-
-<p>The Paton Framework: Minimal Formal Core</p>
-<p>https://doi.org/10.5281/zenodo.18644549</p>
-
-<p>Admissibility Before Dynamics</p>
-<p>https://doi.org/10.5281/zenodo.19033299</p>
-
-<p>Admissibility Field</p>
-<p>https://doi.org/10.5281/zenodo.19124473</p>
-
-<p>Tier-6 Structural Framework</p>
-<p>https://doi.org/10.5281/zenodo.19160048</p>
-
-<p>The Admissibility Lifecycle</p>
-<p>https://doi.org/10.5281/zenodo.19159643</p>
-
-<p>The Paton System: Structural Position with Application and Integration Layer</p>
-<p>https://doi.org/10.5281/zenodo.19159785</p>
+<p><strong>Anchor Paper</strong></p>
+<p>
+<a href="https://doi.org/10.5281/zenodo.19033299">Admissibility Before Dynamics</a>
+</p>
 
 <br>
 
