@@ -500,6 +500,7 @@
     <footer class="footer">
       <div class="footer-card">
         <p><strong>feedback_patonsystem@protonmail.com</strong></p>
+        
         <p>Messages are reviewed on a triaged basis.</p>
         <p>Clear and well-structured emails are prioritised.</p>
       </div>
