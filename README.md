@@ -6,21 +6,22 @@
   <title>The Paton System</title>
   <meta
     name="description"
-    content="The Paton System — a viability-first structural framework governing admissibility continuation and bounded reasoning across domains."
+    content="The Paton System — A Unified Constraint-Based Architecture of Existence, Observation and Continuation."
   />
   <style>
     :root {
-      --bg: #f5f7fb;
-      --surface: #ffffff;
-      --surface-2: #f0f4fa;
-      --text: #0f172a;
-      --muted: #475569;
-      --line: #dbe3ee;
-      --accent: #2563eb;
-      --accent-dark: #1d4ed8;
-      --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
-      --radius: 18px;
-      --max: 1080px;
+      --bg: #0b1020;
+      --bg-soft: #111936;
+      --panel: rgba(255, 255, 255, 0.06);
+      --panel-strong: rgba(255, 255, 255, 0.1);
+      --text: #eef2ff;
+      --muted: #b7c0e0;
+      --line: rgba(255, 255, 255, 0.12);
+      --accent: #8fb7ff;
+      --accent-2: #d6e4ff;
+      --shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+      --max: 1120px;
+      --radius: 22px;
     }
 
     * {
@@ -33,89 +34,124 @@
 
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background:
-        radial-gradient(circle at top left, rgba(37, 99, 235, 0.08), transparent 26%),
-        radial-gradient(circle at top right, rgba(29, 78, 216, 0.06), transparent 24%),
-        var(--bg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       color: var(--text);
-      line-height: 1.55;
+      background:
+        radial-gradient(circle at top left, rgba(143, 183, 255, 0.16), transparent 30%),
+        radial-gradient(circle at top right, rgba(214, 228, 255, 0.12), transparent 28%),
+        linear-gradient(180deg, #0a0f1f 0%, #0b1020 55%, #0d1430 100%);
+      line-height: 1.6;
     }
 
     a {
-      color: var(--accent);
+      color: var(--accent-2);
       text-decoration: none;
     }
 
     a:hover {
-      color: var(--accent-dark);
-      text-decoration: underline;
+      color: #ffffff;
     }
 
     .wrap {
-      width: min(100% - 28px, var(--max));
+      width: min(100% - 32px, var(--max));
       margin: 0 auto;
     }
 
     .topbar {
-      padding: 18px 0 8px;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(14px);
+      background: rgba(11, 16, 32, 0.72);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .topbar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      min-height: 68px;
     }
 
     .brand {
-      display: inline-block;
-      font-size: 1rem;
       font-weight: 700;
-      letter-spacing: 0.02em;
-      color: var(--accent);
+      letter-spacing: 0.04em;
+      font-size: 0.96rem;
+      color: #fff;
+      white-space: nowrap;
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .nav a {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .nav a:hover {
+      color: #fff;
     }
 
     .hero {
-      padding: 18px 0 28px;
+      padding: 88px 0 64px;
     }
 
     .hero-card {
-      background: linear-gradient(180deg, #ffffff 0%, #f9fbff 100%);
+      background: linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.04));
       border: 1px solid var(--line);
-      border-radius: 24px;
+      border-radius: 32px;
       box-shadow: var(--shadow);
-      padding: 34px 24px 26px;
+      padding: 48px 32px 34px;
     }
 
     .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 0.88rem;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--accent);
-      background: rgba(37, 99, 235, 0.08);
-      border: 1px solid rgba(37, 99, 235, 0.14);
+      display: inline-block;
       padding: 8px 12px;
       border-radius: 999px;
-      margin-bottom: 16px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.84rem;
+      letter-spacing: 0.03em;
+      margin-bottom: 20px;
     }
 
     h1 {
-      margin: 0 0 14px;
-      font-size: clamp(2rem, 6vw, 4rem);
-      line-height: 1.03;
+      margin: 0 0 16px;
+      font-size: clamp(2.2rem, 4vw, 4.3rem);
+      line-height: 1.04;
       letter-spacing: -0.03em;
     }
 
-    .hero-sub {
+    .subtitle {
       margin: 0;
-      font-size: clamp(1rem, 2.2vw, 1.3rem);
+      max-width: 780px;
       color: var(--muted);
-      max-width: 760px;
+      font-size: clamp(1.04rem, 1.8vw, 1.24rem);
     }
 
-    .button-row {
+    .flow {
+      margin: 28px 0 0;
+      padding: 18px 20px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      font-weight: 600;
+      color: #fff;
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      letter-spacing: 0.01em;
+    }
+
+    .actions {
       display: flex;
       flex-wrap: wrap;
-      gap: 12px;
-      margin-top: 24px;
+      gap: 14px;
+      margin-top: 28px;
     }
 
     .btn {
@@ -123,388 +159,338 @@
       align-items: center;
       justify-content: center;
       min-height: 46px;
-      padding: 0 16px;
-      border-radius: 12px;
+      padding: 0 18px;
+      border-radius: 14px;
       border: 1px solid var(--line);
-      background: var(--surface);
-      color: var(--text);
-      font-weight: 700;
-      transition: 0.18s ease;
-      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+      background: rgba(255,255,255,0.06);
+      color: #fff;
+      font-weight: 600;
+      transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
     }
 
     .btn:hover {
       transform: translateY(-1px);
-      text-decoration: none;
+      background: rgba(255,255,255,0.1);
+      border-color: rgba(255,255,255,0.22);
     }
 
     .btn.primary {
-      background: var(--accent);
-      color: #ffffff;
-      border-color: var(--accent);
+      background: linear-gradient(180deg, rgba(143,183,255,0.35), rgba(143,183,255,0.16));
+      border-color: rgba(143,183,255,0.42);
     }
 
-    .btn.primary:hover {
-      background: var(--accent-dark);
-    }
-
-    .section {
-      padding: 18px 0 10px;
+    section {
+      padding: 24px 0 40px;
     }
 
     .section-title {
-      font-size: 1.35rem;
-      margin: 0 0 14px;
+      margin: 0 0 12px;
+      font-size: clamp(1.55rem, 2vw, 2rem);
       letter-spacing: -0.02em;
     }
 
-    .section-sub {
+    .section-intro {
+      margin: 0 0 24px;
       color: var(--muted);
-      margin: 0 0 18px;
-      max-width: 800px;
-    }
-
-    .spine {
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      padding: 20px;
-    }
-
-    .spine-line {
-      font-size: clamp(1rem, 2.1vw, 1.35rem);
-      font-weight: 700;
-      line-height: 1.6;
-      color: var(--text);
-    }
-
-    .spine-line .arrow {
-      color: var(--accent);
-      font-weight: 700;
-      padding: 0 6px;
+      max-width: 760px;
     }
 
     .grid {
       display: grid;
       grid-template-columns: repeat(12, 1fr);
-      gap: 16px;
+      gap: 18px;
     }
 
     .card {
       grid-column: span 12;
-      background: var(--surface);
+      background: var(--panel);
       border: 1px solid var(--line);
       border-radius: var(--radius);
+      padding: 24px;
       box-shadow: var(--shadow);
-      padding: 18px 16px;
-      position: relative;
-      overflow: hidden;
     }
 
-    .card::before {
-      content: "";
-      position: absolute;
-      inset: 0 auto 0 0;
-      width: 5px;
-      background: linear-gradient(180deg, var(--accent), #60a5fa);
-      opacity: 0.95;
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 1.1rem;
+      letter-spacing: -0.01em;
     }
 
-    .tier-label {
-      margin: 0 0 8px;
-      font-size: 1.18rem;
-      letter-spacing: -0.02em;
-    }
-
-    .tier-desc {
+    .card p {
       margin: 0;
       color: var(--muted);
-      font-size: 1rem;
     }
 
-    .tier-meta {
-      margin-top: 12px;
-      font-size: 0.9rem;
-      color: var(--accent);
-      font-weight: 700;
+    .mini {
+      margin-top: 14px;
+      color: #fff;
+      font-weight: 600;
+      font-size: 0.98rem;
     }
 
-    .statement {
-      background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      padding: 22px 20px;
-    }
-
-    .statement p {
-      margin: 0;
-      font-size: clamp(1.02rem, 2.1vw, 1.22rem);
-      color: var(--text);
-    }
-
-    .links-card {
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      padding: 20px;
-    }
-
-    .link-list {
+    .tier-list {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 12px;
-      margin-top: 14px;
+      gap: 12px 18px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
     }
 
-    .link-item {
-      display: block;
-      padding: 14px 14px;
+    .tier-list li {
+      padding: 12px 14px;
       border-radius: 14px;
-      background: var(--surface-2);
-      border: 1px solid var(--line);
-      color: var(--text);
-      font-weight: 700;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      color: var(--muted);
     }
 
-    .link-item small {
+    .tier-list strong {
       display: block;
-      font-weight: 400;
+      color: #fff;
+      margin-bottom: 2px;
+      font-size: 0.96rem;
+    }
+
+    .papers {
+      display: grid;
+      gap: 14px;
+    }
+
+    .paper {
+      display: block;
+      padding: 18px 18px;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.04);
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+
+    .paper:hover {
+      transform: translateY(-1px);
+      background: rgba(255,255,255,0.08);
+    }
+
+    .paper-title {
+      display: block;
+      color: #fff;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .paper-note {
       color: var(--muted);
-      margin-top: 4px;
+      font-size: 0.95rem;
+    }
+
+    .quote {
+      font-size: clamp(1.15rem, 2vw, 1.42rem);
+      line-height: 1.5;
+      color: #fff;
+      margin: 0;
     }
 
     .footer {
-      padding: 30px 0 50px;
+      padding: 28px 0 56px;
       color: var(--muted);
+      font-size: 0.94rem;
     }
 
-    .footer-card {
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      padding: 18px 20px;
+    .footer-line {
+      border-top: 1px solid var(--line);
+      padding-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 12px;
     }
 
-    .footer p {
-      margin: 0 0 8px;
+    @media (min-width: 860px) {
+      .span-5 { grid-column: span 5; }
+      .span-6 { grid-column: span 6; }
+      .span-7 { grid-column: span 7; }
     }
 
-    @media (min-width: 760px) {
-      .card {
-        grid-column: span 6;
-      }
-    }
-
-    @media (min-width: 980px) {
-      .card {
-        grid-column: span 4;
-      }
-    }
-
-    @media (max-width: 640px) {
+    @media (max-width: 700px) {
       .hero-card {
-        padding: 24px 18px 20px;
-        border-radius: 18px;
+        padding: 34px 20px 24px;
+        border-radius: 24px;
       }
 
-      .spine,
-      .statement,
-      .links-card,
-      .footer-card,
-      .card {
-        border-radius: 16px;
-      }
-
-      .link-list {
+      .tier-list {
         grid-template-columns: 1fr;
       }
 
-      .button-row {
-        flex-direction: column;
-      }
-
-      .btn {
-        width: 100%;
-      }
-
-      .spine-line {
-        font-size: 1rem;
+      .nav {
+        display: none;
       }
     }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <header class="topbar">
-      <a class="brand" href="#">thePatonSystem</a>
-    </header>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="brand">THE PATON SYSTEM</div>
+      <nav class="nav">
+        <a href="#framework">Framework</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#papers">Core Papers</a>
+        <a href="#links">Links</a>
+      </nav>
+    </div>
+  </header>
 
+  <main>
     <section class="hero">
-      <div class="hero-card">
-        <div class="eyebrow">Viability-first structural framework</div>
-        <h1>THE PATON SYSTEM</h1>
-        <p class="hero-sub">
-          Positioned prior to modelling — governing admissibility, continuation,
-          and bounded reasoning across domains.
-        </p>
+      <div class="wrap">
+        <div class="hero-card">
+          <div class="eyebrow">Constraint before continuation</div>
+          <h1>THE PATON SYSTEM</h1>
+          <p class="subtitle">
+            A Unified Constraint-Based Architecture of Existence, Observation and Continuation.
+          </p>
 
-        <div class="button-row">
-          <a class="btn primary" href="https://doi.org/10.5281/zenodo.19033299" target="_blank" rel="noopener noreferrer">Anchor Paper</a>
-          <a class="btn" href="https://zenodo.org/search?q=Andrew%20John%20Paton" target="_blank" rel="noopener noreferrer">Zenodo Archive</a>
-          <a class="btn" href="https://philpapers.org/s/Andrew%20John%20Paton" target="_blank" rel="noopener noreferrer">PhilPapers</a>
-          <a class="btn" href="https://philpeople.org/profiles/andrew-john-paton/publications" target="_blank" rel="noopener noreferrer">PhilPeople</a>
+          <div class="flow">Exist → Form → Observe → Continue → Limit</div>
+
+          <div class="actions">
+            <a class="btn primary" href="#papers">Read the core papers</a>
+            <a class="btn" href="#architecture">View architecture</a>
+            <a class="btn" href="#links">Zenodo / PhilPapers</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section">
-      <h2 class="section-title">Canonical Structural Spine</h2>
-      <p class="section-sub">
-        The minimal cycle describing how systems become distinguishable,
-        admissible, observable, continuable, and bounded.
-      </p>
-      <div class="spine">
-        <div class="spine-line">
-          Boundary <span class="arrow">→</span>
-          Availability <span class="arrow">→</span>
-          Distinction <span class="arrow">→</span>
-          Formation <span class="arrow">→</span>
-          Admissibility <span class="arrow">→</span>
-          Observation <span class="arrow">→</span>
-          Continuation <span class="arrow">→</span>
-          Persistence <span class="arrow">→</span>
-          Termination <span class="arrow">→</span>
-          Boundary
+    <section id="framework">
+      <div class="wrap">
+        <h2 class="section-title">Framework</h2>
+        <p class="section-intro">
+          The Paton System is a pre-theoretical structural framework. It does not introduce new physical laws. It defines the conditions under which systems are permitted to exist, be observed, and continue.
+        </p>
+
+        <div class="grid">
+          <article class="card span-7">
+            <h3>Minimal core</h3>
+            <p>
+              State ∈ System ⇔ Admissible ∧ Reachable<br />
+              ℘ₙ = Cₙ (℘ₙ₋₁ + ℘ₙ₋₂)<br />
+              Πₚₐ = 1 − (Σ Eₖ / Σ (Bₖ + ε))
+            </p>
+            <div class="mini">Existence → Formation → Continuation</div>
+          </article>
+
+          <article class="card span-5">
+            <h3>What it does</h3>
+            <p>
+              It constrains when description, observation, and continuation remain valid. Domains differ in constraint, not in underlying structural logic.
+            </p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section">
-      <h2 class="section-title">Tier Structure</h2>
-      <p class="section-sub">
-        Eight tiers describing structural progression from undivided availability
-        to global stopping condition.
-      </p>
+    <section id="architecture">
+      <div class="wrap">
+        <h2 class="section-title">Architecture</h2>
+        <p class="section-intro">
+          The framework is organised as a tiered structural hierarchy, from undivided availability through to continuity limits and boundary conditions.
+        </p>
 
-      <div class="grid">
-        <article class="card">
-          <h3 class="tier-label">Tier 0 — Availability</h3>
-          <p class="tier-desc">Undivided possibility.</p>
-          <div class="tier-meta">Locked foundation</div>
-        </article>
-
-        <article class="card">
-          <h3 class="tier-label">Tier 1 — Distinction</h3>
-          <p class="tier-desc">Boundary emergence and first separation.</p>
-          <div class="tier-meta">Locked foundation</div>
-        </article>
-
-        <article class="card">
-          <h3 class="tier-label">Tier 2 — Formation</h3>
-          <p class="tier-desc">Relations, structure, and constrained formation.</p>
-          <div class="tier-meta">Locked foundation</div>
-        </article>
-
-        <article class="card">
-          <h3 class="tier-label">Tier 3 — Admissibility</h3>
-          <p class="tier-desc">Permission to exist and continue.</p>
-          <div class="tier-meta">Gate layer</div>
-        </article>
-
-        <article class="card">
-          <h3 class="tier-label">Tier 4 — Observation</h3>
-          <p class="tier-desc">Measurement, representation, and datum-scale access.</p>
-          <div class="tier-meta">Interface layer</div>
-        </article>
-
-        <article class="card">
-          <h3 class="tier-label">Tier 5 — Continuation</h3>
-          <p class="tier-desc">Recursive persistence through time.</p>
-          <div class="tier-meta">Generative continuation</div>
-        </article>
-
-        <article class="card">
-          <h3 class="tier-label">Tier 6 — Structural Framework</h3>
-          <p class="tier-desc">Geometry, motion, control, breakdown, and law-like structure.</p>
-          <div class="tier-meta">Framework layer</div>
-        </article>
-
-        <article class="card">
-          <h3 class="tier-label">Tier 7 — Domain Systems</h3>
-          <p class="tier-desc">Mathematics, physics, computation, AI, organisational, and economic systems.</p>
-          <div class="tier-meta">Cross-domain instantiation</div>
-        </article>
-
-        <article class="card">
-          <h3 class="tier-label">Tier 8 — Boundary Horizon</h3>
-          <p class="tier-desc">Global limits and stopping condition.</p>
-          <div class="tier-meta">Boundary knowledge</div>
-        </article>
+        <div class="card">
+          <ul class="tier-list">
+            <li><strong>Tier 0</strong>Availability</li>
+            <li><strong>Tier 1</strong>Distinction</li>
+            <li><strong>Tier 2</strong>Formation</li>
+            <li><strong>Tier 3</strong>Admissibility</li>
+            <li><strong>Tier 4</strong>Observation</li>
+            <li><strong>Tier 5</strong>Continuation</li>
+            <li><strong>Tier 6</strong>Structural Laws</li>
+            <li><strong>Tier 7</strong>Domain Instantiation</li>
+            <li><strong>Tier 8</strong>Boundary / Continuity Limit</li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <section class="section">
-      <div class="statement">
-        <p>
-          The Paton System describes the structural conditions under which systems
-          remain admissible, observable, continuable, and bounded across domains.
-        </p>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2 class="section-title">Core Access</h2>
-      <div class="links-card">
-        <p class="section-sub" style="margin-bottom: 0;">
-          Direct entry points for papers, archive, and publication record.
+    <section id="papers">
+      <div class="wrap">
+        <h2 class="section-title">Core papers</h2>
+        <p class="section-intro">
+          A minimal entry path through the system. Keep this section tight and current.
         </p>
 
-        <div class="link-list">
-          <a class="link-item" href="https://doi.org/10.5281/zenodo.19033299" target="_blank" rel="noopener noreferrer">
-            Admissibility Before Dynamics
-            <small>Anchor paper</small>
+        <div class="papers">
+          <a class="paper" href="https://doi.org/10.5281/zenodo.19341703" target="_blank" rel="noopener noreferrer">
+            <span class="paper-title">The Paton System</span>
+            <span class="paper-note">System anchor / capstone entry paper</span>
           </a>
 
-          <a class="link-item" href="https://doi.org/10.5281/zenodo.18644549" target="_blank" rel="noopener noreferrer">
-            Paton Framework Core Definition
-            <small>Minimal formal core</small>
+          <a class="paper" href="https://doi.org/10.5281/zenodo.19326055" target="_blank" rel="noopener noreferrer">
+            <span class="paper-title">Tier-4 Observation as a Constrained Interface</span>
+            <span class="paper-note">Observation as bounded interface, not full access</span>
           </a>
 
-          <a class="link-item" href="https://zenodo.org/search?q=Andrew%20John%20Paton" target="_blank" rel="noopener noreferrer">
-            Zenodo Archive
-            <small>Publication archive</small>
+          <a class="paper" href="https://doi.org/10.5281/zenodo.19325006" target="_blank" rel="noopener noreferrer">
+            <span class="paper-title">Big Bang — A Structural Interpretation</span>
+            <span class="paper-note">Boundary of admissible reconstruction</span>
           </a>
 
-          <a class="link-item" href="https://philpapers.org/s/Andrew%20John%20Paton" target="_blank" rel="noopener noreferrer">
-            PhilPapers
-            <small>Index and records</small>
+          <a class="paper" href="https://doi.org/10.5281/zenodo.19341594" target="_blank" rel="noopener noreferrer">
+            <span class="paper-title">Non-Finality in Constrained Systems</span>
+            <span class="paper-note">Recursive re-emergence and limits of observation</span>
           </a>
 
-          <a class="link-item" href="https://philpeople.org/profiles/andrew-john-paton/publications" target="_blank" rel="noopener noreferrer">
-            PhilPeople Publications
-            <small>Public profile</small>
-          </a>
-
-          <a class="link-item" href="mailto:feedback_patonsystem@protonmail.com">
-            Contact
-            <small>feedback_patonsystem@protonmail.com</small>
+          <a class="paper" href="https://doi.org/10.5281/zenodo.19325727" target="_blank" rel="noopener noreferrer">
+            <span class="paper-title">From System to Domain</span>
+            <span class="paper-note">Structural invariance across constraint environments</span>
           </a>
         </div>
       </div>
     </section>
 
-    <footer class="footer">
-      <div class="footer-card">
-        <p><strong>feedback_patonsystem@protonmail.com</strong></p>
-        
-        <p>Messages are reviewed on a triaged basis.</p>
-        <p>Clear and well-structured emails are prioritised.</p>
+    <section>
+      <div class="wrap">
+        <div class="card">
+          <p class="quote">
+            “The Paton System does not replace scientific theories. It defines the conditions under which systems can exist, be observed, and continue.”
+          </p>
+        </div>
       </div>
-    </footer>
-  </div>
+    </section>
+
+    <section id="links">
+      <div class="wrap">
+        <h2 class="section-title">Links</h2>
+        <p class="section-intro">
+          Keep the outward layer simple. Let the site orient. Let the papers carry the depth.
+        </p>
+
+        <div class="grid">
+          <article class="card span-6">
+            <h3>Zenodo</h3>
+            <p>
+              Primary archive for papers and DOI records.<br /><br />
+              <a href="https://zenodo.org/" target="_blank" rel="noopener noreferrer">Open Zenodo</a>
+            </p>
+          </article>
+
+          <article class="card span-6">
+            <h3>PhilPapers / PhilPeople</h3>
+            <p>
+              Publication index and external clustering of the research program.<br /><br />
+              <a href="https://philpeople.org/profiles/andrew-john-paton/publications" target="_blank" rel="noopener noreferrer">Open PhilPeople publications</a>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-line">
+      <div>© Andrew John Paton — The Paton System</div>
+      <div>Constraint-based architecture of existence, observation and continuation</div>
+    </div>
+  </footer>
 </body>
 </html>
