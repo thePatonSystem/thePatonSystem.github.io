@@ -489,6 +489,8 @@
   <footer class="footer">
     <div class="wrap footer-line">
       <div>© Andrew John Paton — The Paton System</div>
+      <div>feedback_patonsystem@protonmail.com
+        <div>
       <div>Constraint-based architecture of existence, observation and continuation</div>
     </div>
   </footer>
