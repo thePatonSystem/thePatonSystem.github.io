@@ -67,7 +67,7 @@
       color: #fff;
     }
 
-    .nav { display: flex; gap: 16px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 16px; }
     .nav a { color: var(--muted); font-size: 0.95rem; }
     .nav a:hover { color: #fff; }
 
@@ -117,7 +117,7 @@
       font-size: clamp(1rem, 2vw, 1.2rem);
     }
 
-    .actions { display: flex; gap: 14px; margin-top: 28px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 28px; }
 
     .btn {
       display: inline-flex;
@@ -139,10 +139,17 @@
 
     section { padding: 24px 0 40px; }
 
-    .section-title { font-size: 1.8rem; }
+    .section-title { font-size: 1.8rem; margin-bottom: 12px; }
     .section-intro { color: var(--muted); max-width: 760px; }
 
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 18px;
+    }
+
     .card {
+      grid-column: span 12;
       background: var(--panel);
       border: 1px solid var(--line);
       border-radius: var(--radius);
@@ -152,26 +159,39 @@
 
     .tier-list {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px 18px;
       list-style: none;
       padding: 0;
+      margin: 0;
     }
 
     .tier-list li {
-      padding: 10px;
+      padding: 12px;
       border-radius: 12px;
       background: rgba(255,255,255,0.04);
       border: 1px solid rgba(255,255,255,0.08);
     }
 
-    .papers { display: grid; gap: 12px; }
+    .papers { display: grid; gap: 14px; }
 
     .paper {
-      padding: 16px;
-      border-radius: 14px;
+      display: block;
+      padding: 18px;
+      border-radius: 18px;
       border: 1px solid var(--line);
       background: rgba(255,255,255,0.04);
+    }
+
+    .paper-title {
+      font-weight: 700;
+      display: block;
+      color: #fff;
+    }
+
+    .paper-note {
+      color: var(--muted);
+      font-size: 0.95rem;
     }
 
     .quote {
@@ -182,6 +202,15 @@
     .footer {
       padding: 28px 0 56px;
       color: var(--muted);
+    }
+
+    .footer-line {
+      border-top: 1px solid var(--line);
+      padding-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
     }
   </style>
 </head>
@@ -214,9 +243,9 @@
       <div class="flow">Possibility → Admissibility → Observation → Continuation → Boundary</div>
 
       <div class="actions">
-        <a class="btn primary" href="#papers">Core Papers</a>
-        <a class="btn" href="#architecture">Architecture</a>
-        <a class="btn" href="#links">Links</a>
+        <a class="btn primary" href="#papers">Read the core papers</a>
+        <a class="btn" href="#architecture">View architecture</a>
+        <a class="btn" href="#links">Zenodo / PhilPapers / Contact</a>
       </div>
     </div>
   </div>
@@ -229,10 +258,12 @@
       The Paton System defines the condition that must be satisfied before any system can exist, be observed, or continue.
     </p>
 
-    <div class="card">
-      State ∈ System ⇔ Admissible ∧ Reachable<br />
-      ℘ₙ = Cₙ (℘ₙ₋₁ + ℘ₙ₋₂)<br />
-      Πₚₐ = 1 − (Σ Eₖ / Σ (Bₖ + ε))
+    <div class="grid">
+      <div class="card">
+        State ∈ System ⇔ Admissible ∧ Reachable<br />
+        ℘ₙ = Cₙ (℘ₙ₋₁ + ℘ₙ₋₂)<br />
+        Πₚₐ = 1 − (Σ Eₖ / Σ (Bₖ + ε))
+      </div>
     </div>
   </div>
 </section>
@@ -249,8 +280,8 @@
         <li><strong>Tier 4</strong> Observation</li>
         <li><strong>Tier 5</strong> Continuation</li>
         <li><strong>Tier 6</strong> Structural Laws</li>
-        <li><strong>Tier 7</strong> Domains</li>
-        <li><strong>Tier 8</strong> Boundary</li>
+        <li><strong>Tier 7</strong> Domain Instantiation</li>
+        <li><strong>Tier 8</strong> Boundary / Continuity Limit</li>
       </ul>
     </div>
   </div>
@@ -258,14 +289,31 @@
 
 <section id="papers">
   <div class="wrap">
-    <h2 class="section-title">Core Papers</h2>
+    <h2 class="section-title">Core papers</h2>
 
     <div class="papers">
-      <div class="paper">The Paton System</div>
-      <div class="paper">Tier-4 Observation as a Constrained Interface</div>
-      <div class="paper">Big Bang — A Structural Interpretation</div>
-      <div class="paper">Non-Finality in Constrained Systems</div>
-      <div class="paper">From System to Domain</div>
+      <a class="paper" href="https://doi.org/10.5281/zenodo.19341703" target="_blank">
+        <span class="paper-title">The Paton System</span>
+        <span class="paper-note">System anchor / capstone entry paper</span>
+      </a>
+
+      <a class="paper" href="https://doi.org/10.5281/zenodo.19326055" target="_blank">
+        <span class="paper-title">Tier-4 Observation as a Constrained Interface</span>
+        <span class="paper-note">Observation as bounded interface</span>
+      </a>
+
+      <a class="paper" href="https://doi.org/10.5281/zenodo.19325006" target="_blank">
+        <span class="paper-title">Big Bang — A Structural Interpretation</span>
+        <span class="paper-note">Boundary of admissibility</span>
+      </a>
+
+      <a class="paper" href="https://doi.org/10.5281/zenodo.19341594" target="_blank">
+        <span class="paper-title">Non-Finality in Constrained Systems</span>
+      </a>
+
+      <a class="paper" href="https://doi.org/10.5281/zenodo.19325727" target="_blank">
+        <span class="paper-title">From System to Domain</span>
+      </a>
     </div>
   </div>
 </section>
@@ -285,11 +333,21 @@
   <div class="wrap">
     <h2 class="section-title">Links</h2>
 
-    <div class="card">
-      <p>
-        Zenodo / PhilPapers / Contact<br />
-        https://thepatonsystem.github.io/
-      </p>
+    <div class="grid">
+      <div class="card">
+        Zenodo<br />
+        <a href="https://zenodo.org/">Open Zenodo</a>
+      </div>
+
+      <div class="card">
+        PhilPapers<br />
+        <a href="https://philpeople.org/profiles/andrew-john-paton/publications">Open publications</a>
+      </div>
+
+      <div class="card">
+        Contact<br />
+        <a href="mailto:feedback_patonsystem@protonmail.com">feedback_patonsystem@protonmail.com</a>
+      </div>
     </div>
   </div>
 </section>
@@ -297,8 +355,12 @@
 </main>
 
 <footer class="footer">
-  <div class="wrap">
-    © Andrew John Paton — The Paton System
+  <div class="wrap footer-line">
+    <div>
+      © Andrew John Paton — The Paton System<br />
+      <a href="mailto:feedback_patonsystem@protonmail.com">feedback_patonsystem@protonmail.com</a>
+    </div>
+    <div>Constraint-based structure of existence, observation and continuation</div>
   </div>
 </footer>
 
