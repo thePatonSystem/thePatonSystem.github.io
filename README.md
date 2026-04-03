@@ -65,10 +65,20 @@
       letter-spacing: 0.04em;
       font-size: 0.96rem;
       color: #fff;
+      white-space: nowrap;
     }
 
-    .nav { display: flex; flex-wrap: wrap; gap: 16px; }
-    .nav a { color: var(--muted); font-size: 0.95rem; }
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .nav a {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
     .nav a:hover { color: #fff; }
 
     .hero { padding: 88px 0 64px; }
@@ -117,7 +127,12 @@
       font-size: clamp(1rem, 2vw, 1.2rem);
     }
 
-    .actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 28px; }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
 
     .btn {
       display: inline-flex;
@@ -139,8 +154,16 @@
 
     section { padding: 24px 0 40px; }
 
-    .section-title { font-size: 1.8rem; margin-bottom: 12px; }
-    .section-intro { color: var(--muted); max-width: 760px; }
+    .section-title {
+      font-size: 1.8rem;
+      margin: 0 0 12px;
+    }
+
+    .section-intro {
+      color: var(--muted);
+      max-width: 760px;
+      margin: 0 0 24px;
+    }
 
     .grid {
       display: grid;
@@ -157,23 +180,63 @@
       box-shadow: var(--shadow);
     }
 
-    .tier-list {
+    .tiers-stack {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 12px 18px;
-      list-style: none;
-      padding: 0;
-      margin: 0;
+      gap: 12px;
     }
 
-    .tier-list li {
-      padding: 12px;
-      border-radius: 12px;
+    details.tier {
       background: rgba(255,255,255,0.04);
       border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      overflow: hidden;
     }
 
-    .papers { display: grid; gap: 14px; }
+    details.tier summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 16px 18px;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    details.tier summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .tier-label {
+      display: block;
+      color: var(--muted);
+      font-weight: 500;
+      font-size: 0.95rem;
+      margin-top: 2px;
+    }
+
+    .tier-arrow {
+      color: var(--muted);
+      font-size: 0.95rem;
+      transition: transform 0.2s ease;
+      flex-shrink: 0;
+    }
+
+    details[open] .tier-arrow {
+      transform: rotate(90deg);
+    }
+
+    .tier-content {
+      padding: 0 18px 18px 18px;
+      color: var(--muted);
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .papers {
+      display: grid;
+      gap: 14px;
+    }
 
     .paper {
       display: block;
@@ -187,6 +250,7 @@
       font-weight: 700;
       display: block;
       color: #fff;
+      margin-bottom: 4px;
     }
 
     .paper-note {
@@ -197,6 +261,7 @@
     .quote {
       font-size: 1.3rem;
       color: #fff;
+      margin: 0;
     }
 
     .footer {
@@ -211,6 +276,21 @@
       justify-content: space-between;
       flex-wrap: wrap;
       gap: 12px;
+    }
+
+    @media (max-width: 700px) {
+      .hero-card {
+        padding: 34px 20px 24px;
+        border-radius: 24px;
+      }
+
+      .nav {
+        display: none;
+      }
+
+      .footer-line {
+        flex-direction: column;
+      }
     }
   </style>
 </head>
@@ -271,18 +351,131 @@
 <section id="architecture">
   <div class="wrap">
     <h2 class="section-title">Architecture</h2>
+    <p class="section-intro">
+      The system is organised as a tiered structural hierarchy. Open each tier for a short meaning.
+    </p>
+
     <div class="card">
-      <ul class="tier-list">
-        <li><strong>Tier 0</strong> Availability</li>
-        <li><strong>Tier 1</strong> Distinction</li>
-        <li><strong>Tier 2</strong> Formation</li>
-        <li><strong>Tier 3</strong> Admissibility</li>
-        <li><strong>Tier 4</strong> Observation</li>
-        <li><strong>Tier 5</strong> Continuation</li>
-        <li><strong>Tier 6</strong> Structural Laws</li>
-        <li><strong>Tier 7</strong> Domain Instantiation</li>
-        <li><strong>Tier 8</strong> Boundary / Continuity Limit</li>
-      </ul>
+      <div class="tiers-stack">
+
+        <details class="tier">
+          <summary>
+            <div>
+              Tier 0
+              <span class="tier-label">Availability</span>
+            </div>
+            <span class="tier-arrow">▶</span>
+          </summary>
+          <div class="tier-content">
+            Undivided availability. The pre-distinguished condition from which structure can emerge.
+          </div>
+        </details>
+
+        <details class="tier">
+          <summary>
+            <div>
+              Tier 1
+              <span class="tier-label">Distinction</span>
+            </div>
+            <span class="tier-arrow">▶</span>
+          </summary>
+          <div class="tier-content">
+            Boundary emergence. The first distinction that allows something to be set apart from undivided availability.
+          </div>
+        </details>
+
+        <details class="tier">
+          <summary>
+            <div>
+              Tier 2
+              <span class="tier-label">Formation</span>
+            </div>
+            <span class="tier-arrow">▶</span>
+          </summary>
+          <div class="tier-content">
+            Structured possibility. Relations, symmetries, and candidate formations can arise, but are not yet guaranteed to exist physically.
+          </div>
+        </details>
+
+        <details class="tier">
+          <summary>
+            <div>
+              Tier 3
+              <span class="tier-label">Admissibility</span>
+            </div>
+            <span class="tier-arrow">▶</span>
+          </summary>
+          <div class="tier-content">
+            The gate condition. Only configurations that satisfy governing constraints are permitted to exist or continue.
+          </div>
+        </details>
+
+        <details class="tier">
+          <summary>
+            <div>
+              Tier 4
+              <span class="tier-label">Observation</span>
+            </div>
+            <span class="tier-arrow">▶</span>
+          </summary>
+          <div class="tier-content">
+            Constrained interface. Observation does not reveal all structure, only what remains admissible to resolution.
+          </div>
+        </details>
+
+        <details class="tier">
+          <summary>
+            <div>
+              Tier 5
+              <span class="tier-label">Continuation</span>
+            </div>
+            <span class="tier-arrow">▶</span>
+          </summary>
+          <div class="tier-content">
+            Recursive persistence. A system continues only while admissibility is preserved across sequential states.
+          </div>
+        </details>
+
+        <details class="tier">
+          <summary>
+            <div>
+              Tier 6
+              <span class="tier-label">Structural Laws</span>
+            </div>
+            <span class="tier-arrow">▶</span>
+          </summary>
+          <div class="tier-content">
+            Cross-domain structural conditions such as compatibility, viability, field behaviour, curvature, and continuity rules.
+          </div>
+        </details>
+
+        <details class="tier">
+          <summary>
+            <div>
+              Tier 7
+              <span class="tier-label">Domain Instantiation</span>
+            </div>
+            <span class="tier-arrow">▶</span>
+          </summary>
+          <div class="tier-content">
+            Domain-specific realisations of the framework in physics, AI, biology, engineering, organisations, and other systems.
+          </div>
+        </details>
+
+        <details class="tier">
+          <summary>
+            <div>
+              Tier 8
+              <span class="tier-label">Boundary / Continuity Limit</span>
+            </div>
+            <span class="tier-arrow">▶</span>
+          </summary>
+          <div class="tier-content">
+            The outer continuity horizon. The limiting condition where admissible continuation fails or reaches its final boundary.
+          </div>
+        </details>
+
+      </div>
     </div>
   </div>
 </section>
@@ -322,7 +515,7 @@
   <div class="wrap">
     <div class="card">
       <p class="quote">
-        The Paton System does not replace scientific theories.  
+        The Paton System does not replace scientific theories.<br />
         It defines the condition under which systems can exist, be observed, and continue.
       </p>
     </div>
@@ -336,12 +529,12 @@
     <div class="grid">
       <div class="card">
         Zenodo<br />
-        <a href="https://zenodo.org/">Open Zenodo</a>
+        <a href="https://zenodo.org/" target="_blank">Open Zenodo</a>
       </div>
 
       <div class="card">
         PhilPapers<br />
-        <a href="https://philpeople.org/profiles/andrew-john-paton/publications">Open publications</a>
+        <a href="https://philpeople.org/profiles/andrew-john-paton/publications" target="_blank">Open publications</a>
       </div>
 
       <div class="card">
@@ -363,6 +556,24 @@
     <div>Constraint-based structure of existence, observation and continuation</div>
   </div>
 </footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const tiers = document.querySelectorAll('.tier');
+
+    tiers.forEach((tier) => {
+      tier.addEventListener('toggle', function () {
+        if (this.open) {
+          tiers.forEach((other) => {
+            if (other !== this) {
+              other.open = false;
+            }
+          });
+        }
+      });
+    });
+  });
+</script>
 
 </body>
 </html>
