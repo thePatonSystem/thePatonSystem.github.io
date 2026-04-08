@@ -20,7 +20,7 @@
       --accent: #8fb7ff;
       --accent-2: #d6e4ff;
       --shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
-      --max: 1120px;
+      --max: 1180px;
       --radius: 22px;
     }
 
@@ -111,7 +111,7 @@
 
     .subtitle {
       margin: 0;
-      max-width: 780px;
+      max-width: 860px;
       color: var(--muted);
       font-size: clamp(1.04rem, 1.8vw, 1.24rem);
     }
@@ -161,7 +161,7 @@
 
     .section-intro {
       color: var(--muted);
-      max-width: 760px;
+      max-width: 860px;
       margin: 0 0 24px;
     }
 
@@ -180,19 +180,27 @@
       box-shadow: var(--shadow);
     }
 
+    .framework-formulas {
+      font-size: 1.06rem;
+      line-height: 1.9;
+      color: #fff;
+    }
+
     .tiers-stack {
       display: grid;
       gap: 12px;
     }
 
-    details.tier {
+    details.tier,
+    details.tree-tier {
       background: rgba(255,255,255,0.04);
       border: 1px solid rgba(255,255,255,0.08);
       border-radius: 16px;
       overflow: hidden;
     }
 
-    details.tier summary {
+    details.tier summary,
+    details.tree-tier summary {
       list-style: none;
       cursor: pointer;
       padding: 16px 18px;
@@ -204,7 +212,8 @@
       gap: 16px;
     }
 
-    details.tier summary::-webkit-details-marker {
+    details.tier summary::-webkit-details-marker,
+    details.tree-tier summary::-webkit-details-marker {
       display: none;
     }
 
@@ -231,6 +240,61 @@
       padding: 0 18px 18px 18px;
       color: var(--muted);
       border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .logic-note {
+      margin-top: 16px;
+      padding: 14px 16px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.04);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .tree-meta {
+      display: grid;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .meta-line {
+      padding: 14px 16px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.04);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .link-list {
+      display: grid;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .link-item {
+      padding: 14px 16px;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.03);
+    }
+
+    .link-item strong {
+      color: #fff;
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .link-item span {
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .subhead {
+      margin: 0 0 12px;
+      font-size: 1.08rem;
+      color: #fff;
     }
 
     .papers {
@@ -264,6 +328,34 @@
       margin: 0;
     }
 
+    .links-grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 18px;
+    }
+
+    .link-card {
+      grid-column: span 4;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .link-card-title {
+      font-size: 1.05rem;
+      color: #fff;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .link-card p {
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
     .footer {
       padding: 28px 0 56px;
       color: var(--muted);
@@ -276,6 +368,12 @@
       justify-content: space-between;
       flex-wrap: wrap;
       gap: 12px;
+    }
+
+    @media (max-width: 900px) {
+      .link-card {
+        grid-column: span 12;
+      }
     }
 
     @media (max-width: 700px) {
@@ -303,6 +401,7 @@
     <nav class="nav">
       <a href="#framework">Framework</a>
       <a href="#architecture">Architecture</a>
+      <a href="#logic-tree">Structural Link Tree</a>
       <a href="#papers">Core Papers</a>
       <a href="#links">Links</a>
     </nav>
@@ -317,15 +416,15 @@
       <div class="eyebrow">Constraint before continuation</div>
       <h1>THE PATON SYSTEM</h1>
       <p class="subtitle">
-        A structural framework defining what can exist, be observed, and continue.
+        A structural framework defining what can exist, be observed, and continue. The full system is tiered, linked by necessity, and organised so that logical relations can be seen directly rather than inferred loosely by theme.
       </p>
 
-      <div class="flow">Possibility → Admissibility → Observation → Continuation → Boundary</div>
+      <div class="flow">Possibility → Admissibility → Observation → Continuation → Structure → Domain → Continuity</div>
 
       <div class="actions">
-        <a class="btn primary" href="#papers">Read the core papers</a>
-        <a class="btn" href="#architecture">View architecture</a>
-        <a class="btn" href="#links">Zenodo / PhilPapers / Contact</a>
+        <a class="btn primary" href="#logic-tree">View full structural linkage</a>
+        <a class="btn" href="#architecture">View tier architecture</a>
+        <a class="btn" href="#papers">Read core papers</a>
       </div>
     </div>
   </div>
@@ -335,14 +434,16 @@
   <div class="wrap">
     <h2 class="section-title">Framework</h2>
     <p class="section-intro">
-      The Paton System defines the condition that must be satisfied before any system can exist, be observed, or continue.
+      The Paton System defines the condition that must be satisfied before any system can exist, be observed, or continue. It is a pre-theoretical constraint framework rather than a replacement for domain-specific scientific theory.
     </p>
 
     <div class="grid">
       <div class="card">
-        State ∈ System ⇔ Admissible ∧ Reachable<br />
-        ℘ₙ = Cₙ (℘ₙ₋₁ + ℘ₙ₋₂)<br />
-        Πₚₐ = 1 − (Σ Eₖ / Σ (Bₖ + ε))
+        <div class="framework-formulas">
+          State ∈ System ⇔ Admissible ∧ Reachable<br />
+          ℘ₙ = Cₙ (℘ₙ₋₁ + ℘ₙ₋₂)<br />
+          Πₚₐ = 1 − (Σ Eₖ / Σ (Bₖ + ε))
+        </div>
       </div>
     </div>
   </div>
@@ -445,7 +546,7 @@
             <span class="tier-arrow">▶</span>
           </summary>
           <div class="tier-content">
-            Cross-domain structural conditions such as compatibility, viability, field behaviour, curvature, and continuity rules.
+            Cross-domain structural conditions such as compatibility, viability, field behaviour, curvature, trajectories, regions, and boundary rules.
           </div>
         </details>
 
@@ -476,36 +577,262 @@
         </details>
 
       </div>
+
+      <div class="logic-note">
+        <strong style="color:#fff;">Structural rule:</strong> Tier 4 shows. Tier 6 explains. Papers are linked only when one is structurally necessary for another.
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="logic-tree">
+  <div class="wrap">
+    <h2 class="section-title">Structural Link Tree</h2>
+    <p class="section-intro">
+      This section shows how the full Paton System relates internally. Links are made by necessity, not by loose thematic similarity. If removing a linked paper breaks the mechanism of another paper, the link remains. If not, it does not belong.
+    </p>
+
+    <div class="card">
+      <div class="tree-meta">
+        <div class="meta-line">
+          <strong style="color:#fff;">Linking rule:</strong> Link by necessity. Not by relevance.
+        </div>
+        <div class="meta-line">
+          <strong style="color:#fff;">Interpretive rule:</strong> Tier 4 shows. Tier 6 explains. Tier 7 applies. Tier 8 integrates.
+        </div>
+      </div>
+
+      <div class="tiers-stack">
+
+        <details class="tree-tier">
+          <summary>
+            <div>
+              Tier 0–3 Foundation
+              <span class="tier-label">Availability, distinction, formation, admissibility</span>
+            </div>
+            <span class="tier-arrow">▶</span>
+          </summary>
+          <div class="tier-content">
+            <div class="link-list">
+              <div class="link-item">
+                <strong>Tier 0 — Availability</strong>
+                <span>Undivided condition from which structure can emerge.</span>
+              </div>
+              <div class="link-item">
+                <strong>Tier 1 — Distinction</strong>
+                <span>First separation and boundary emergence.</span>
+              </div>
+              <div class="link-item">
+                <strong>Tier 2 — Formation / Possibility</strong>
+                <span>Structured possibility, candidate trajectories, relations.</span>
+              </div>
+              <div class="link-item">
+                <strong>Tier 3 — Admissibility / Filtering</strong>
+                <span>Constraint gate determining what may exist and continue.</span>
+              </div>
+              <div class="link-item">
+                <strong>Boundary admission condition</strong>
+                <span>The precondition separating continuation from non-continuation.</span>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <details class="tree-tier">
+          <summary>
+            <div>
+              Tier 4 Visibility / Observation
+              <span class="tier-label">What becomes visible after admissibility filtering</span>
+            </div>
+            <span class="tier-arrow">▶</span>
+          </summary>
+          <div class="tier-content">
+            <div class="link-list">
+              <div class="link-item">
+                <strong>Tier 2 → Tier 3 → Tier 4: Mapping Possibilities to Observed Datum</strong>
+                <span>Maps possibility through admissibility into observed datum.</span>
+              </div>
+              <div class="link-item">
+                <strong>Fractals — Structure, Resonance, and Tier Transition</strong>
+                <span>Depends on Tier 2 formation and Tier 3 admissibility filtering. Fractals are visible recursion under constraint, not origin structure.</span>
+              </div>
+              <div class="link-item">
+                <strong>Paton System — Canonical Boundary Diagram (Dual Representation)</strong>
+                <span>Visualises Tier 4 visibility and bridges Tier 4 ↔ Tier 6 boundary behaviour.</span>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <details class="tree-tier">
+          <summary>
+            <div>
+              Tier 5 Continuation / Recursion
+              <span class="tier-label">Recursive persistence under admissibility</span>
+            </div>
+            <span class="tier-arrow">▶</span>
+          </summary>
+          <div class="tier-content">
+            <div class="link-list">
+              <div class="link-item">
+                <strong>Recursive Admissibility and System Correctness</strong>
+                <span>Formalises recursion as gated continuation under Tier 3 admissibility.</span>
+              </div>
+              <div class="link-item">
+                <strong>Internal Admissibility Practice</strong>
+                <span>Shows the Paton System applying recursively to its own paper generation and validation.</span>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <details class="tree-tier">
+          <summary>
+            <div>
+              Tier 6 Structural Integration / Boundary Behaviour
+              <span class="tier-label">Geometry, limits, fields, trajectories, compatibility</span>
+            </div>
+            <span class="tier-arrow">▶</span>
+          </summary>
+          <div class="tier-content">
+            <div class="link-list">
+              <div class="link-item">
+                <strong>Fit, Form, and Function</strong>
+                <span>Local admissibility condition.</span>
+              </div>
+              <div class="link-item">
+                <strong>Admissible Trajectories and Constraint Filtering</strong>
+                <span>Defines path persistence under admissibility.</span>
+              </div>
+              <div class="link-item">
+                <strong>Admissible Regions and Boundary Geometry</strong>
+                <span>Defines the structural space in which states may continue.</span>
+              </div>
+              <div class="link-item">
+                <strong>Boundary Inversion Under Forced Continuation</strong>
+                <span>Defines behavioural inversion at limits when force exceeds admissibility.</span>
+              </div>
+              <div class="link-item">
+                <strong>Boundary Emergence and Boundary Inversion</strong>
+                <span>Combines inference constraint at model limits with required system response.</span>
+              </div>
+              <div class="link-item">
+                <strong>Admissibility-Limited Systems — Unified Explanation of Boundary Behaviour</strong>
+                <span>Clarifies information persistence versus access at boundaries.</span>
+              </div>
+              <div class="link-item">
+                <strong>Unified Structural Lens</strong>
+                <span>Integrates persistence, access, recursion, and non-invertibility across the structure.</span>
+              </div>
+              <div class="link-item">
+                <strong>Tier 6 — Structural Admissibility Geometry</strong>
+                <span>Consolidates Tier 6 into one geometry stack: local condition, paths, regions, and limits.</span>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <details class="tree-tier">
+          <summary>
+            <div>
+              Tier 7 Domain Instantiations / Applied Systems
+              <span class="tier-label">Applied papers using the framework in domains</span>
+            </div>
+            <span class="tier-arrow">▶</span>
+          </summary>
+          <div class="tier-content">
+            <div class="link-list">
+              <div class="link-item">
+                <strong>Paton System — Life Integration</strong>
+                <span>Depends on Tier 2 formation, Tier 3 admissibility, and Tier 4 realised datum.</span>
+              </div>
+              <div class="link-item">
+                <strong>Temperature as Propagation Under Constraint</strong>
+                <span>Domain application of propagation limits and admissible energy movement.</span>
+              </div>
+              <div class="link-item">
+                <strong>Cosmic Lifecycle as Admissibility Reduction</strong>
+                <span>Applies admissibility reduction across cosmological evolution.</span>
+              </div>
+              <div class="link-item">
+                <strong>Constraint Dominance and Admissibility Reduction</strong>
+                <span>Bridges Tier 7 cosmological evolution to Tier 8 fate condition.</span>
+              </div>
+              <div class="link-item">
+                <strong>The Paton System — Optical Vortex</strong>
+                <span>Applies admissible directionality to light and optical structure.</span>
+              </div>
+              <div class="link-item">
+                <strong>Tier 7 linking rule</strong>
+                <span>Domain papers link only to Tier 3 (admissibility), Tier 5 (recursion), or Tier 6 (structure). They do not link sideways by theme alone.</span>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <details class="tree-tier">
+          <summary>
+            <div>
+              Tier 8 Global Continuity / Whole-System Outcome
+              <span class="tier-label">Full-system continuity without fixed origin or termination</span>
+            </div>
+            <span class="tier-arrow">▶</span>
+          </summary>
+          <div class="tier-content">
+            <div class="link-list">
+              <div class="link-item">
+                <strong>The Paton System — Global Continuity Statement</strong>
+                <span>Integrates Tier 2 formation, Tier 3 admissibility, Tier 5 recursion, Tier 6 structural integration, and Tier 7 domain instantiations into one continuous system.</span>
+              </div>
+              <div class="link-item">
+                <strong>Tier 8 definition</strong>
+                <span>Defines the continuous system without fixed origin or terminal ending. What changes is not existence, but access and admissible continuity.</span>
+              </div>
+            </div>
+          </div>
+        </details>
+
+      </div>
     </div>
   </div>
 </section>
 
 <section id="papers">
   <div class="wrap">
-    <h2 class="section-title">Core papers</h2>
+    <h2 class="section-title">Core Papers</h2>
+    <p class="section-intro">
+      Selected anchor papers. These are entry points into the wider system archive.
+    </p>
 
     <div class="papers">
-      <a class="paper" href="https://doi.org/10.5281/zenodo.19341703" target="_blank">
-        <span class="paper-title">The Paton System</span>
-        <span class="paper-note">System anchor / capstone entry paper</span>
+      <a class="paper" href="https://doi.org/10.5281/zenodo.19447197" target="_blank" rel="noopener noreferrer">
+        <span class="paper-title">The Paton System — Unified Life Structure</span>
+        <span class="paper-note">Unified architecture across Tier 0 → Tier 8</span>
       </a>
 
-      <a class="paper" href="https://doi.org/10.5281/zenodo.19326055" target="_blank">
-        <span class="paper-title">Tier-4 Observation as a Constrained Interface</span>
-        <span class="paper-note">Observation as bounded interface</span>
+      <a class="paper" href="https://doi.org/10.5281/zenodo.19463366" target="_blank" rel="noopener noreferrer">
+        <span class="paper-title">The Paton System — Global Continuity Statement</span>
+        <span class="paper-note">Tier 8 continuity anchor</span>
       </a>
 
-      <a class="paper" href="https://doi.org/10.5281/zenodo.19325006" target="_blank">
-        <span class="paper-title">Big Bang — A Structural Interpretation</span>
-        <span class="paper-note">Boundary of admissibility</span>
+      <a class="paper" href="https://doi.org/10.5281/zenodo.19446738" target="_blank" rel="noopener noreferrer">
+        <span class="paper-title">Tier 6 — Structural Admissibility Geometry</span>
+        <span class="paper-note">Unified Tier 6 structural integration</span>
       </a>
 
-      <a class="paper" href="https://doi.org/10.5281/zenodo.19341594" target="_blank">
-        <span class="paper-title">Non-Finality in Constrained Systems</span>
+      <a class="paper" href="https://doi.org/10.5281/zenodo.19446993" target="_blank" rel="noopener noreferrer">
+        <span class="paper-title">Recursive Admissibility and System Correctness</span>
+        <span class="paper-note">Tier 3 PAT ↔ Tier 5 recursion proof</span>
       </a>
 
-      <a class="paper" href="https://doi.org/10.5281/zenodo.19325727" target="_blank">
-        <span class="paper-title">From System to Domain</span>
+      <a class="paper" href="https://doi.org/10.5281/zenodo.19463403" target="_blank" rel="noopener noreferrer">
+        <span class="paper-title">Paton System — Canonical Boundary Diagram (Dual Representation)</span>
+        <span class="paper-note">Tier 4 ↔ Tier 6 visual bridge</span>
+      </a>
+
+      <a class="paper" href="https://doi.org/10.5281/zenodo.19463907" target="_blank" rel="noopener noreferrer">
+        <span class="paper-title">Fractals — Structure, Resonance, and Tier Transition</span>
+        <span class="paper-note">Tier 4 visibility / fractal expression layer</span>
       </a>
     </div>
   </div>
@@ -526,19 +853,22 @@
   <div class="wrap">
     <h2 class="section-title">Links</h2>
 
-    <div class="grid">
-      <div class="card">
-        Zenodo<br />
-        <a href="https://zenodo.org/" target="_blank">Open Zenodo</a>
+    <div class="links-grid">
+      <div class="link-card">
+        <div class="link-card-title">Zenodo</div>
+        <p>Primary archive of published papers and DOI-linked records.</p>
+        <a href="https://zenodo.org/" target="_blank" rel="noopener noreferrer">Open Zenodo</a>
       </div>
 
-      <div class="card">
-        PhilPapers<br />
-        <a href="https://philpeople.org/profiles/andrew-john-paton/publications" target="_blank">Open publications</a>
+      <div class="link-card">
+        <div class="link-card-title">PhilPapers</div>
+        <p>Philosophy-facing publication index and profile record.</p>
+        <a href="https://philpeople.org/profiles/andrew-john-paton/publications" target="_blank" rel="noopener noreferrer">Open publications</a>
       </div>
 
-      <div class="card">
-        Contact<br />
+      <div class="link-card">
+        <div class="link-card-title">Contact</div>
+        <p>Direct feedback and correspondence.</p>
         <a href="mailto:feedback_patonsystem@protonmail.com">feedback_patonsystem@protonmail.com</a>
       </div>
     </div>
@@ -553,23 +883,28 @@
       © Andrew John Paton — The Paton System<br />
       <a href="mailto:feedback_patonsystem@protonmail.com">feedback_patonsystem@protonmail.com</a>
     </div>
-    <div>Constraint-based structure of existence, observation and continuation</div>
+    <div>Constraint-based structure of existence, observation, continuation, and continuity</div>
   </div>
 </footer>
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const tiers = document.querySelectorAll('.tier');
+    const groups = [
+      document.querySelectorAll('.tier'),
+      document.querySelectorAll('.tree-tier')
+    ];
 
-    tiers.forEach((tier) => {
-      tier.addEventListener('toggle', function () {
-        if (this.open) {
-          tiers.forEach((other) => {
-            if (other !== this) {
-              other.open = false;
-            }
-          });
-        }
+    groups.forEach((collection) => {
+      collection.forEach((item) => {
+        item.addEventListener('toggle', function () {
+          if (this.open) {
+            collection.forEach((other) => {
+              if (other !== this) {
+                other.open = false;
+              }
+            });
+          }
+        });
       });
     });
   });
