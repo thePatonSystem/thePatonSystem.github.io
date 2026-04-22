@@ -399,6 +399,7 @@
   <div class="wrap topbar-inner">
     <div class="brand">THE PATON SYSTEM</div>
     <nav class="nav">
+      <a href="#start-here">Start Here</a>
       <a href="#framework">Framework</a>
       <a href="#architecture">Architecture</a>
       <a href="#logic-tree">Structural Link Tree</a>
@@ -422,10 +423,32 @@
       <div class="flow">Possibility → Admissibility → Observation → Continuation → Structure → Domain → Continuity</div>
 
       <div class="actions">
-        <a class="btn primary" href="#logic-tree">View full structural linkage</a>
+        <a class="btn primary" href="#start-here">Start here</a>
+        <a class="btn" href="#logic-tree">View full structural linkage</a>
         <a class="btn" href="#architecture">View tier architecture</a>
         <a class="btn" href="#papers">Read core papers</a>
       </div>
+    </div>
+  </div>
+</section>
+
+<section id="start-here">
+  <div class="wrap">
+    <h2 class="section-title">Start Here</h2>
+    <p class="section-intro">
+      If you are new to the Paton System, begin here. These two papers provide the clearest entry into the framework: one for interpretation, one for structure.
+    </p>
+
+    <div class="papers">
+      <a class="paper" href="https://doi.org/10.5281/zenodo.19695588" target="_blank" rel="noopener noreferrer">
+        <span class="paper-title">Paton System — Cognitive Clarifications: Master Index (Series I–IV)</span>
+        <span class="paper-note">Primary entry point for interpretation, admissibility, observation, continuation, collapse, stability, and decision.</span>
+      </a>
+
+      <a class="paper" href="https://doi.org/10.5281/zenodo.19693759" target="_blank" rel="noopener noreferrer">
+        <span class="paper-title">The Paton System — Canonical Equations I–X</span>
+        <span class="paper-note">The structural spine of the framework.</span>
+      </a>
     </div>
   </div>
 </section>
@@ -436,6 +459,16 @@
     <p class="section-intro">
       The Paton System defines the condition that must be satisfied before any system can exist, be observed, or continue. It is a pre-theoretical constraint framework rather than a replacement for domain-specific scientific theory.
     </p>
+
+    <div class="card" style="margin-bottom: 18px;">
+      <div class="subhead">Entry Path</div>
+      <div class="link-list">
+        <div class="link-item">
+          <strong>Start with interpretation</strong>
+          <span><a href="https://doi.org/10.5281/zenodo.19695588" target="_blank" rel="noopener noreferrer">Cognitive Clarifications — Master Index (Series I–IV)</a></span>
+        </div>
+      </div>
+    </div>
 
     <div class="grid">
       <div class="card">
@@ -803,6 +836,21 @@
     <p class="section-intro">
       Selected anchor papers. These are entry points into the wider system archive.
     </p>
+
+    <div class="card" style="margin-bottom: 18px;">
+      <div class="subhead">Core Entry Papers</div>
+      <div class="papers">
+        <a class="paper" href="https://doi.org/10.5281/zenodo.19695588" target="_blank" rel="noopener noreferrer">
+          <span class="paper-title">Paton System — Cognitive Clarifications: Master Index (Series I–IV)</span>
+          <span class="paper-note">Unified interpretation index for the cognitive layer.</span>
+        </a>
+
+        <a class="paper" href="https://doi.org/10.5281/zenodo.19693759" target="_blank" rel="noopener noreferrer">
+          <span class="paper-title">The Paton System — Canonical Equations I–X</span>
+          <span class="paper-note">Primary structural spine of the framework.</span>
+        </a>
+      </div>
+    </div>
 
     <div class="papers">
       <a class="paper" href="https://doi.org/10.5281/zenodo.19447197" target="_blank" rel="noopener noreferrer">
