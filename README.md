@@ -123,31 +123,7 @@
      style="margin-left:10px;">
      📚 PhilPeople
   </a>
-
-  <a class="contact-button"
-     href="https://zenodo.org/communities/the-paton-system"
-     target="_blank"
-     rel="noopener"
-     style="margin-left:10px;">
-     📄 Zenodo
-  </a>
-
-  <a class="contact-button"
-     href="https://github.com/thePatonSystem"
-     target="_blank"
-     rel="noopener"
-     style="margin-left:10px;">
-     💻 GitHub
-  </a>
-
-  <a class="contact-button"
-     href="https://www.linkedin.com/in/andrew-paton-paton-system-australia/"
-     target="_blank"
-     rel="noopener"
-     style="margin-left:10px;">
-     🔗 LinkedIn
-  </a>
-
+  
 </p>
    </section>
    <section aria-label="PATON System branches" class="tree-list">
