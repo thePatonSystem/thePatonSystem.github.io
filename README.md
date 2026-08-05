@@ -109,11 +109,46 @@
     </div>
     <p aria-live="polite" class="search-status" id="searchStatus">
     </p>
-    <p class="contact-line">
-     <a class="contact-button" href="mailto:feedback_patonsystem@protonmail.com?subject=PATON%20System%20Feedback">
-      Email feedback: feedback_patonsystem@protonmail.com
-     </a>
-    </p>
+<p class="contact-line">
+
+  <a class="contact-button"
+     href="mailto:feedback_patonsystem@protonmail.com?subject=PATON%20System%20Feedback">
+     📧 Email
+  </a>
+
+  <a class="contact-button"
+     href="https://philpeople.org/profiles/andrew-john-paton"
+     target="_blank"
+     rel="noopener"
+     style="margin-left:10px;">
+     📚 PhilPeople
+  </a>
+
+  <a class="contact-button"
+     href="https://zenodo.org/communities/the-paton-system"
+     target="_blank"
+     rel="noopener"
+     style="margin-left:10px;">
+     📄 Zenodo
+  </a>
+
+  <a class="contact-button"
+     href="https://github.com/thePatonSystem"
+     target="_blank"
+     rel="noopener"
+     style="margin-left:10px;">
+     💻 GitHub
+  </a>
+
+  <a class="contact-button"
+     href="https://www.linkedin.com/in/andrew-paton-paton-system-australia/"
+     target="_blank"
+     rel="noopener"
+     style="margin-left:10px;">
+     🔗 LinkedIn
+  </a>
+
+</p>
    </section>
    <section aria-label="PATON System branches" class="tree-list">
     <details class="branch" id="a-tier-spine">
